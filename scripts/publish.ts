@@ -53,7 +53,10 @@ function buildPublishPayload(skill: NormalizedSkill): PublishSkillPayload {
   };
 }
 
-function getChangedSkills(rootDir: string): { active: string[]; deleted: string[] } {
+function getChangedSkills(rootDir: string): {
+  active: string[];
+  deleted: string[];
+} {
   const active = new Set<string>();
   const deleted = new Set<string>();
 
@@ -85,10 +88,13 @@ function getChangedSkills(rootDir: string): { active: string[]; deleted: string[
 
 function getSlugFromPath(filePath: string | undefined): string | null {
   const [, slug] = filePath?.split("/") ?? [];
-  return slug || null;
+  return `surfmind/${slug}` || null;
 }
 
-async function postJson(url: string, payload: { slug: string } | PublishSkillPayload): Promise<void> {
+async function postJson(
+  url: string,
+  payload: { slug: string } | PublishSkillPayload,
+): Promise<void> {
   const response = await fetch(url, {
     method: "POST",
     headers: {
