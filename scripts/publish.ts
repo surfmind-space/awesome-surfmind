@@ -14,6 +14,9 @@ const SLUG_NAMESPACE = "surfmind";
 const rootDir = process.cwd();
 const cloudUrl = requiredEnv("SURFMIND_CLOUD_URL").replace(/\/$/, "");
 const adminApiKey = requiredEnv("SKILLS_ADMIN_API_KEY");
+const repoUrl = getSourceRepoUrl();
+const sourceBranch = getSourceBranch();
+const githubStars = await fetchGitHubStars(repoUrl);
 const changedSkills = getChangedSkills(rootDir);
 
 if (changedSkills.active.length === 0 && changedSkills.deleted.length === 0) {
@@ -42,6 +45,7 @@ type PublishSkillPayload = NormalizedSkill & {
   sourceBranch: string;
   sourceTreeSha: string;
   sourceUpdatedAt: string;
+  githubStars: number | null;
 };
 
 function buildPublishPayload(
@@ -52,11 +56,12 @@ function buildPublishPayload(
     ...skill,
     slug: namespacedSlug(name),
     sourceType: "native",
-    sourceRepoUrl: getSourceRepoUrl(),
+    sourceRepoUrl: repoUrl,
     sourcePath: `skills/${name}`,
-    sourceBranch: getSourceBranch(),
+    sourceBranch,
     sourceTreeSha: getSkillTreeSha(name),
     sourceUpdatedAt: getSkillCommitDate(name),
+    githubStars,
   };
 }
 
@@ -100,6 +105,40 @@ function getChangedSkills(rootDir: string): {
 function getSlugFromPath(filePath: string | undefined): string | null {
   const [, name] = filePath?.split("/") ?? [];
   return name || null;
+}
+
+async function fetchGitHubStars(url: string): Promise<number | null> {
+  const match = /github\.com[:/]([^/]+)\/([^/]+?)(?:\.git)?(?:\/|$)/.exec(url);
+  if (!match) return null;
+  const [, owner, repo] = match;
+  const headers: Record<string, string> = {
+    accept: "application/vnd.github+json",
+    "user-agent": "surfmind-skills-publish",
+  };
+  if (process.env.GITHUB_TOKEN) {
+    headers.authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/${owner}/${repo}`,
+      { headers },
+    );
+    if (!response.ok) {
+      console.warn(
+        `Could not fetch stars for ${owner}/${repo}: ${response.status}`,
+      );
+      return null;
+    }
+    const body = (await response.json()) as { stargazers_count?: number };
+    return typeof body.stargazers_count === "number"
+      ? body.stargazers_count
+      : null;
+  } catch (error) {
+    console.warn(
+      `Could not fetch stars for ${owner}/${repo}: ${(error as Error).message}`,
+    );
+    return null;
+  }
 }
 
 async function postJson(
