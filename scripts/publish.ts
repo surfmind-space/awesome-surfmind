@@ -12,7 +12,7 @@ import { readSkill, type NormalizedSkill } from "./skills.js";
 const SLUG_NAMESPACE = "surfmind";
 
 const rootDir = process.cwd();
-const cloudUrl = requiredEnv("SURFMIND_CLOUD_URL").replace(/\/$/, "");
+const apiUrl = requiredEnv("SURFMIND_API_URL").replace(/\/$/, "");
 const adminApiKey = requiredEnv("SKILLS_ADMIN_API_KEY");
 const repoUrl = getSourceRepoUrl();
 const sourceBranch = getSourceBranch();
@@ -26,7 +26,7 @@ if (changedSkills.active.length === 0 && changedSkills.deleted.length === 0) {
 
 for (const name of changedSkills.deleted) {
   const slug = namespacedSlug(name);
-  await postJson(`${cloudUrl}/api/skills/admin/deprecate`, { slug });
+  await postJson(`${apiUrl}/skills/admin/deprecate`, { slug });
   console.log(`Deprecated ${slug}`);
 }
 
@@ -34,7 +34,7 @@ for (const name of changedSkills.active) {
   const skill = readSkill(rootDir, name);
   const payload = buildPublishPayload(name, skill);
 
-  await postJson(`${cloudUrl}/api/skills/admin/upsert`, payload);
+  await postJson(`${apiUrl}/skills/admin/upsert`, payload);
   console.log(`Published ${payload.slug} (${payload.sourceTreeSha})`);
 }
 

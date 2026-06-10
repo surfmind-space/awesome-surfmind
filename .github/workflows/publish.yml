@@ -37,5 +37,5 @@ jobs:
           GITHUB_SHA: ${{ github.sha }}
           GITHUB_REF_NAME: ${{ github.ref_name }}
           SKILLS_ADMIN_API_KEY: ${{ secrets.SKILLS_ADMIN_API_KEY }}
-          SURFMIND_CLOUD_URL: ${{ vars.SURFMIND_CLOUD_URL || 'https://surfmind.ai' }}
+          SURFMIND_API_URL: ${{ vars.SURFMIND_API_URL }}
         run: npm run publish
