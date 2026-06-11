@@ -3,6 +3,7 @@ import path from "node:path";
 import {
   getChangedSkillDiff,
   getSkillCommitDate,
+  getSkillCommitSha,
   getSkillTreeSha,
   getSourceBranch,
   getSourceRepoUrl,
@@ -44,6 +45,7 @@ type PublishSkillPayload = NormalizedSkill & {
   sourcePath: string;
   sourceBranch: string;
   sourceTreeSha: string;
+  sourceCommitSha: string;
   sourceUpdatedAt: string;
   githubStars: number | null;
 };
@@ -60,6 +62,7 @@ function buildPublishPayload(
     sourcePath: `skills/${name}`,
     sourceBranch,
     sourceTreeSha: getSkillTreeSha(name),
+    sourceCommitSha: getSkillCommitSha(name),
     sourceUpdatedAt: getSkillCommitDate(name),
     githubStars,
   };

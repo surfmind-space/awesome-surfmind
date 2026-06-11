@@ -86,6 +86,23 @@ export function getSkillTreeSha(slug: string): string {
   return sha;
 }
 
+export function getSkillCommitSha(slug: string): string {
+  const output = git([
+    "log",
+    "-1",
+    "--format=%H",
+    "HEAD",
+    "--",
+    `skills/${slug}`,
+  ]);
+
+  if (!output) {
+    throw new Error(`Could not resolve commit SHA for skills/${slug}`);
+  }
+
+  return output;
+}
+
 export function getSkillCommitDate(slug: string): string {
   const output = git([
     "log",
