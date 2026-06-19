@@ -47,7 +47,7 @@ idea that deserves to be reusable, you are welcome here.
 | 🔌 Suggest an MCP       | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for an MCP listing or integration idea.           |
 | 💬 Suggest an idea      | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for a skill request, bug, or catalog improvement. |
 
-<p align="center">
+<p>
   <a href="https://github.com/surfmind-space/surfmind-skills/stargazers">
     <img alt="Star SurfMind Skills" src="https://img.shields.io/github/stars/surfmind-space/surfmind-skills?style=for-the-badge&label=Star%20the%20repo&color=f0b85a" />
   </a>
@@ -62,16 +62,18 @@ idea that deserves to be reusable, you are welcome here.
 ## 🧩 Official SurfMind Skills
 
 <!-- surfmind:official-skills:start -->
-| Skill | Categories | Description |
-| --- | --- | --- |
-| [Answer](./skills/answer/SKILL.md) | Reading & Research, Learning & Tutoring | Answers questions using the selected or visible content as context. |
-| [Explain](./skills/explain/SKILL.md) | Reading & Research, Learning & Tutoring | Explains selected or visible content in clear, approachable language. |
-| [Fix Grammar](./skills/fix-grammar/SKILL.md) | Writing | Corrects grammar, spelling, punctuation, and wording while preserving meaning. |
-| [Improve Writing](./skills/improve-writing/SKILL.md) | Writing | Improves clarity, flow, tone, and polish while preserving intent. |
-| [Rewrite Longer](./skills/rewrite-longer/SKILL.md) | Writing | Expands text with more detail, clarity, and flow while preserving meaning. |
-| [Rewrite Shorter](./skills/rewrite-shorter/SKILL.md) | Writing | Rewrites text to be shorter and more concise while preserving meaning. |
-| [Summarize](./skills/summarize/SKILL.md) | Reading & Research | Creates a concise summary of selected or visible content. |
-| [Translate](./skills/translate/SKILL.md) | Languages & Translation | Translates selected or provided text into the chosen language. |
+
+| Skill                                                | Categories                              | Description                                                                    |
+| ---------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------ |
+| [Answer](./skills/answer/SKILL.md)                   | Reading & Research, Learning & Tutoring | Answers questions using the selected or visible content as context.            |
+| [Explain](./skills/explain/SKILL.md)                 | Reading & Research, Learning & Tutoring | Explains selected or visible content in clear, approachable language.          |
+| [Fix Grammar](./skills/fix-grammar/SKILL.md)         | Writing                                 | Corrects grammar, spelling, punctuation, and wording while preserving meaning. |
+| [Improve Writing](./skills/improve-writing/SKILL.md) | Writing                                 | Improves clarity, flow, tone, and polish while preserving intent.              |
+| [Rewrite Longer](./skills/rewrite-longer/SKILL.md)   | Writing                                 | Expands text with more detail, clarity, and flow while preserving meaning.     |
+| [Rewrite Shorter](./skills/rewrite-shorter/SKILL.md) | Writing                                 | Rewrites text to be shorter and more concise while preserving meaning.         |
+| [Summarize](./skills/summarize/SKILL.md)             | Reading & Research                      | Creates a concise summary of selected or visible content.                      |
+| [Translate](./skills/translate/SKILL.md)             | Languages & Translation                 | Translates selected or provided text into the chosen language.                 |
+
 <!-- surfmind:official-skills:end -->
 
 ## 🌊 Community Skills

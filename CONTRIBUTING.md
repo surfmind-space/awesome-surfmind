@@ -133,13 +133,14 @@ Community entry format:
 <summary><strong>Acme Research Assistant</strong></summary>
 
 <!-- surfmind:community-skill
-skillUrl: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
-submittedBy: "@acme"
+url: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
+shortDescription: Research assistant for technical blogs, docs, and papers.
+submittedBy: "acme"
 tags:
   - research
   - learning
 promotion:
-  tagline: Research assistant for technical blogs, docs, and papers.
+  text: Built by Acme for technical research workflows.
   website: https://acme.example
   links:
     - label: Demo
@@ -151,12 +152,12 @@ promotion:
 
 Required community fields:
 
-- `skillUrl`: a public GitHub folder URL that points to the skill folder
+- `url`: a public GitHub folder URL that points to the skill folder
+- `shortDescription`: a 1-2 sentence summary used only in the generated `awesome-skills.md` table
 - `submittedBy`: your GitHub handle, organization, or author name
 - `tags`: canonical SurfMind tags for the skill, or `[]` when no tag is relevant
-- `promotion.tagline`: short text shown in the awesome list and SurfMind catalog
 
-`skillUrl` must use this shape:
+`url` must use this shape:
 
 ```text
 https://github.com/<owner>/<repo>/tree/<branch>/<path-to-skill-folder>
@@ -168,6 +169,8 @@ folder.
 
 Optional community fields:
 
+- `promotion`
+- `promotion.text`
 - `promotion.website`
 - `promotion.links`
 
@@ -179,8 +182,10 @@ tags: []
 ```
 
 The skill's name, description, icon, action menu, prompt, and files come from
-the external `SKILL.md`. The `awesome-skills.md` tags are validated in CI and
-sent with the community import payload so the catalog can categorize the listing
+the external `SKILL.md`. The web catalog uses that `description` as the primary
+skill summary. `shortDescription` is only for the generated GitHub table in
+`awesome-skills.md`. The `awesome-skills.md` tags are validated in CI and sent
+with the community import payload so the catalog can categorize the listing
 after the PR is merged.
 
 ## Local Checks

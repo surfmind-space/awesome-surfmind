@@ -5,11 +5,12 @@ import { KNOWN_SKILL_TAGS, SKILL_TAG_CATEGORIES } from "./constants.js";
 
 export type CommunitySkill = {
   title: string;
-  skillUrl: string;
+  url: string;
+  shortDescription: string;
   submittedBy: string;
   tags: string[];
-  promotion: {
-    tagline: string;
+  promotion?: {
+    text?: string;
     website?: string;
     links: Array<{ label: string; url: string }>;
   };
@@ -26,15 +27,17 @@ const promotionLinkSchema = z.object({
 });
 
 const communitySkillSchema = z.object({
-  skillUrl: z.string().trim().url(),
+  url: z.string().trim().url(),
+  shortDescription: z.string().trim().min(1),
   submittedBy: z.string().trim().min(1),
   tags: z.array(z.string()).nullish().transform(normalizeTags),
   promotion: z
     .object({
-      tagline: z.string().trim().min(1),
+      text: z.string().trim().min(1).optional(),
       website: z.string().trim().url().optional(),
       links: z.array(promotionLinkSchema).optional().default([]),
-    }),
+    })
+    .optional(),
 });
 
 export function readAwesomeSkills(filePath: string): CommunitySkill[] {
@@ -89,28 +92,35 @@ export function parseCommunitySkills(
     const yaml = match[1];
     const index = match.index ?? 0;
     const parsed = communitySkillSchema.parse(parseYaml(yaml));
-    const skillUrl = normalizeSkillFolderUrl(parsed.skillUrl.trim(), filePath);
+    const url = normalizeSkillFolderUrl(parsed.url.trim(), filePath);
 
-    if (seenUrls.has(skillUrl)) {
-      throw new Error(`${filePath}: duplicate skillUrl "${skillUrl}"`);
+    if (seenUrls.has(url)) {
+      throw new Error(`${filePath}: duplicate url "${url}"`);
     }
-    seenUrls.add(skillUrl);
+    seenUrls.add(url);
 
     skills.push({
       title: readEntryTitle(content, index, filePath),
-      skillUrl,
+      url,
+      shortDescription: parsed.shortDescription.trim(),
       submittedBy: parsed.submittedBy.trim(),
       tags: parsed.tags,
-      promotion: {
-        tagline: parsed.promotion.tagline.trim(),
-        ...(parsed.promotion.website
-          ? { website: parsed.promotion.website.trim() }
-          : {}),
-        links: parsed.promotion.links.map((link) => ({
-          label: link.label.trim(),
-          url: link.url.trim(),
-        })),
-      },
+      ...(parsed.promotion
+        ? {
+            promotion: {
+              ...(parsed.promotion.text
+                ? { text: parsed.promotion.text.trim() }
+                : {}),
+              ...(parsed.promotion.website
+                ? { website: parsed.promotion.website.trim() }
+                : {}),
+              links: parsed.promotion.links.map((link) => ({
+                label: link.label.trim(),
+                url: link.url.trim(),
+              })),
+            },
+          }
+        : {}),
     });
   }
 
@@ -119,16 +129,16 @@ export function parseCommunitySkills(
 
 function buildSkillsTable(skills: CommunitySkill[]): string {
   const rows = [
-    "| Skill | Submitted By | Tags | Tagline | Links |",
+    "| Skill | Submitted By | Tags | Short Description | Links |",
     "| --- | --- | --- | --- | --- |",
   ];
 
   for (const skill of skills) {
     rows.push(
-      `| [${escapeTableCell(skill.title)}](${skill.skillUrl}) | ${escapeTableCell(
+      `| [${escapeTableCell(skill.title)}](${skill.url}) | ${escapeTableCell(
         skill.submittedBy,
       )} | ${formatTags(skill.tags)} | ${escapeTableCell(
-        skill.promotion.tagline,
+        skill.shortDescription,
       )} | ${formatLinks(skill)} |`,
     );
   }
@@ -146,10 +156,10 @@ function formatTags(tags: string[]): string {
 
 function formatLinks(skill: CommunitySkill): string {
   const links = [
-    ...(skill.promotion.website
+    ...(skill.promotion?.website
       ? [{ label: "Website", url: skill.promotion.website }]
       : []),
-    ...skill.promotion.links,
+    ...(skill.promotion?.links ?? []),
   ];
 
   if (links.length === 0) return "";
@@ -192,7 +202,7 @@ function normalizeSkillFolderUrl(url: string, filePath: string): string {
 
   if (!isSkillFolder) {
     throw new Error(
-      `${filePath}: skillUrl must be a GitHub skill folder URL, for example https://github.com/acme/repo/tree/main/skills/my-skill`,
+      `${filePath}: url must be a GitHub skill folder URL, for example https://github.com/acme/repo/tree/main/skills/my-skill`,
     );
   }
 
