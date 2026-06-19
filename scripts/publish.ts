@@ -57,6 +57,7 @@ if (awesomeSkillsChanged) {
     const result = await postJson(`${apiUrl}/skills/admin/import`, {
       skills: communitySkills.map((skill) => ({
         url: skill.skillUrl,
+        tags: skill.tags,
         communityProfile: {
           submittedBy: skill.submittedBy,
           promotion: skill.promotion,
@@ -184,6 +185,7 @@ async function postJson(
     | {
         skills: Array<{
           url: string;
+          tags?: string[];
           communityProfile: {
             submittedBy: string;
             promotion: {
