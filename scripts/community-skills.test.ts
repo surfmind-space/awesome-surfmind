@@ -12,8 +12,8 @@ Community-maintained SurfMind-compatible skills.
 ## Skills
 
 <!-- surfmind:awesome-table:start -->
-| Skill | Submitted By | Tagline | Links |
-| --- | --- | --- | --- |
+| Skill | Submitted By | Tags | Description | Links |
+| --- | --- | --- | --- | --- |
 <!-- surfmind:awesome-table:end -->
 
 ## Entries
@@ -22,13 +22,14 @@ Community-maintained SurfMind-compatible skills.
 <summary><strong>Acme Research Assistant</strong></summary>
 
 <!-- surfmind:community-skill
-skillUrl: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
-submittedBy: "@acme"
+url: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
+shortDescription: Research assistant for technical blogs, docs, and papers.
+submittedBy: "acme"
 tags:
   - research
   - learning
 promotion:
-  tagline: Research assistant for technical blogs, docs, and papers.
+  text: Built by Acme for technical research workflows.
   website: https://acme.example
   links:
     - label: Demo
@@ -44,12 +45,13 @@ test("parses collapsed community skill entries", () => {
   assert.deepEqual(skills, [
     {
       title: "Acme Research Assistant",
-      skillUrl:
-        "https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant",
-      submittedBy: "@acme",
+      url: "https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant",
+      shortDescription:
+        "Research assistant for technical blogs, docs, and papers.",
+      submittedBy: "acme",
       tags: ["research", "learning"],
       promotion: {
-        tagline: "Research assistant for technical blogs, docs, and papers.",
+        text: "Built by Acme for technical research workflows.",
         website: "https://acme.example",
         links: [{ label: "Demo", url: "https://acme.example/demo" }],
       },
@@ -62,7 +64,7 @@ test("generates the awesome skills table from collapsed entries", () => {
 
   assert.match(
     generated,
-    /\| \[Acme Research Assistant\]\(https:\/\/github\.com\/acme\/surfmind-skills\/tree\/main\/skills\/research-assistant\) \| @acme \| Reading & Research, Learning & Tutoring \| Research assistant for technical blogs, docs, and papers\. \| \[Website\]\(https:\/\/acme\.example\) · \[Demo\]\(https:\/\/acme\.example\/demo\) \|/,
+    /\| \[Acme Research Assistant\]\(https:\/\/github\.com\/acme\/surfmind-skills\/tree\/main\/skills\/research-assistant\) \| acme \| Reading & Research, Learning & Tutoring \| Research assistant for technical blogs, docs, and papers\. \| \[Website\]\(https:\/\/acme\.example\) · \[Demo\]\(https:\/\/acme\.example\/demo\) \|/,
   );
 });
 
@@ -75,6 +77,23 @@ test("allows community skills to explicitly have no tags", () => {
   const skills = parseCommunitySkills(untagged, "awesome-skills.md");
 
   assert.deepEqual(skills[0]?.tags, []);
+});
+
+test("allows community skills without a promotion object", () => {
+  const withoutPromotion = exampleMarkdown.replace(
+    `promotion:
+  text: Built by Acme for technical research workflows.
+  website: https://acme.example
+  links:
+    - label: Demo
+      url: https://acme.example/demo
+`,
+    "",
+  );
+
+  const skills = parseCommunitySkills(withoutPromotion, "awesome-skills.md");
+
+  assert.equal(skills[0]?.promotion, undefined);
 });
 
 test("rejects unknown community skill tags", () => {
@@ -92,10 +111,10 @@ test("rejects duplicate community skill URLs", () => {
 <summary><strong>Another Entry</strong></summary>
 
 <!-- surfmind:community-skill
-skillUrl: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
-submittedBy: "@someone"
-promotion:
-  tagline: Duplicate URL.
+url: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
+shortDescription: Duplicate URL.
+submittedBy: "someone"
+tags: []
 -->
 
 </details>
@@ -103,11 +122,11 @@ promotion:
 
   assert.throws(
     () => parseCommunitySkills(duplicated, "awesome-skills.md"),
-    /duplicate skillUrl/i,
+    /duplicate url/i,
   );
 });
 
-test("rejects repo root URLs because skillUrl must point to a skill folder", () => {
+test("rejects repo root URLs because url must point to a skill folder", () => {
   const repoRoot = exampleMarkdown.replace(
     "https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant",
     "https://github.com/acme/surfmind-skills",
@@ -115,11 +134,11 @@ test("rejects repo root URLs because skillUrl must point to a skill folder", () 
 
   assert.throws(
     () => parseCommunitySkills(repoRoot, "awesome-skills.md"),
-    /skillUrl must be a GitHub skill folder URL/i,
+    /url must be a GitHub skill folder URL/i,
   );
 });
 
-test("rejects SKILL.md file URLs because skillUrl must point to a skill folder", () => {
+test("rejects SKILL.md file URLs because url must point to a skill folder", () => {
   const skillFile = exampleMarkdown.replace(
     "https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant",
     "https://github.com/acme/surfmind-skills/blob/main/skills/research-assistant/SKILL.md",
@@ -127,6 +146,6 @@ test("rejects SKILL.md file URLs because skillUrl must point to a skill folder",
 
   assert.throws(
     () => parseCommunitySkills(skillFile, "awesome-skills.md"),
-    /skillUrl must be a GitHub skill folder URL/i,
+    /url must be a GitHub skill folder URL/i,
   );
 });
