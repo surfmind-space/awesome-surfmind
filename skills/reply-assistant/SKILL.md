@@ -5,8 +5,8 @@ metadata:
   author: surfmind
   icon: MessageCircleReply
   tags:
-    - communication
     - writing
+    - productivity
 ---
 
 # Reply Assistant

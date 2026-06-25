@@ -2,8 +2,7 @@ export const KNOWN_ACTION_MENU_PRESETS = ["languages"] as const;
 
 export const SKILL_TAG_CATEGORIES = {
   research: "Reading & Research",
-  writing: "Writing",
-  communication: "Communication",
+  writing: "Writing & Communication",
   shopping: "Shopping & Commerce",
   code: "Coding & Development",
   learning: "Learning & Tutoring",

@@ -6,7 +6,6 @@ metadata:
   icon: WandSparkles
   tags:
     - writing
-    - communication
   actionMenu:
     - label: Professional
       value: professional

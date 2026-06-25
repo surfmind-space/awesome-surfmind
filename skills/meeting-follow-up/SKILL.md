@@ -5,9 +5,8 @@ metadata:
   author: surfmind
   icon: Calendar
   tags:
-    - communication
-    - productivity
     - writing
+    - productivity
 ---
 
 # Meeting Follow-Up

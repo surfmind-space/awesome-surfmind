@@ -6,7 +6,6 @@ metadata:
   icon: Highlighter
   tags:
     - writing
-    - communication
 ---
 
 # Style Match
