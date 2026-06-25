@@ -4,7 +4,7 @@ import { parse as parseYaml } from "yaml";
 import { z } from "zod";
 import {
   KNOWN_ACTION_MENU_PRESETS,
-  KNOWN_PROMPT_ICONS,
+  KNOWN_SKILL_ICONS,
   KNOWN_SKILL_TAGS,
 } from "./constants.js";
 
@@ -126,9 +126,9 @@ function normalizeFrontmatter(
   const tags = normalizeTags(metadata.tags);
   const actionMenu = normalizeActionMenu(metadata.actionMenu, slug);
 
-  if (icon && !KNOWN_PROMPT_ICONS.includes(icon as never)) {
+  if (icon && !KNOWN_SKILL_ICONS.includes(icon as never)) {
     throw new Error(
-      `skills/${slug}/SKILL.md: unknown icon "${icon}". Expected one of: ${KNOWN_PROMPT_ICONS.join(", ")}`,
+      `skills/${slug}/SKILL.md: unknown icon "${icon}". Expected one of: ${KNOWN_SKILL_ICONS.join(", ")}`,
     );
   }
 
