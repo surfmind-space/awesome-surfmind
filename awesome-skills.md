@@ -20,11 +20,11 @@ Add one collapsed entry per community skill. See [`CONTRIBUTING.md`](./CONTRIBUT
 
 Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written.
 
-- Source: https://github.com/blader/humanizer
+- Source: https://github.com/blader/humanizer/tree/main
 - Tags: writing, content
 
 <!-- surfmind:community-skill
-url: https://github.com/blader/humanizer
+url: https://github.com/blader/humanizer/tree/main
 shortDescription: Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written.
 submittedBy: "minnxdao"
 tags:
