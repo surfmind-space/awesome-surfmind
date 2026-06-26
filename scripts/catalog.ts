@@ -53,22 +53,21 @@ export function generateReadmeMarkdown(
 }
 
 function buildOfficialSkillsTable(rootDir: string): string {
-  const rows = [
-    "| Skill | Categories | Description |",
-    "| --- | --- | --- |",
-  ];
+  const rows = ["| Skill | Categories | Description |", "| --- | --- | --- |"];
 
   for (const slug of listSkillSlugs(rootDir)) {
     const skill = readSkill(rootDir, slug);
     const categories = skill.tags
-      .map((tag) => SKILL_TAG_CATEGORIES[tag as keyof typeof SKILL_TAG_CATEGORIES])
+      .map(
+        (tag) => SKILL_TAG_CATEGORIES[tag as keyof typeof SKILL_TAG_CATEGORIES],
+      )
       .filter(Boolean)
       .join(", ");
 
     rows.push(
       `| [${escapeTableCell(skill.name)}](./skills/${slug}/SKILL.md) | ${escapeTableCell(
         categories,
-      )} | ${escapeTableCell(skill.description)} |`,
+      )} | ${escapeTableCell(skill.description.split(" ")[0])} |`,
     );
   }
 
