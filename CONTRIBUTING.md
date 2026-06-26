@@ -155,6 +155,19 @@ Community entry format:
 <details>
 <summary><strong>Acme Research Assistant</strong></summary>
 
+Research assistant for technical blogs, docs, and papers.
+
+- Source: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
+- Submitted by: acme
+- Tags: research, learning
+
+---
+
+Built by Acme for technical research workflows.
+
+- Website: https://acme.example
+- Demo: https://acme.example/demo
+
 <!-- surfmind:community-skill
 url: https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant
 shortDescription: Research assistant for technical blogs, docs, and papers.
@@ -180,15 +193,16 @@ Required community fields:
 - `submittedBy`: your GitHub handle, organization, or author name
 - `tags`: canonical SurfMind tags for the skill, or `[]` when no tag is relevant
 
-`url` must use this shape:
+`url` must use one of these shapes:
 
 ```text
 https://github.com/<owner>/<repo>/tree/<branch>/<path-to-skill-folder>
+https://github.com/<owner>/<repo>/tree/<branch>
 ```
 
-Use the folder containing `SKILL.md`, not the repo root and not the `SKILL.md`
-file URL. This lets the importer include any supporting files in the skill
-folder.
+Use the folder containing `SKILL.md`, not the `SKILL.md` file URL. If `SKILL.md`
+lives at the repository root, use the branch-explicit repo root URL. This lets
+the importer include any supporting files in the skill folder.
 
 Optional community fields:
 
