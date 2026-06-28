@@ -106,6 +106,7 @@ Allowed tags:
 | `finance`      | Finance                       | Track budgets, analyze financial data, and research markets or investments |
 | `data`         | Data & Analytics              | Analyze, summarize, and work with data and metrics                         |
 | `automation`   | Browser & Workflow Automation | Automate browser actions and multi-step workflows                          |
+| `career`       | Career                        | Review jobs, prepare applications, interviews, outreach, and career moves   |
 
 ## Icons
 
