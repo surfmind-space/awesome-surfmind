@@ -13,6 +13,7 @@ export const SKILL_TAG_CATEGORIES = {
   marketing: "Marketing & Sales",
   productivity: "Productivity",
   finance: "Finance",
+  career: "Career",
 } as const;
 
 export const KNOWN_SKILL_TAGS = Object.keys(SKILL_TAG_CATEGORIES) as Array<
@@ -20,65 +21,92 @@ export const KNOWN_SKILL_TAGS = Object.keys(SKILL_TAG_CATEGORIES) as Array<
 >;
 
 export const KNOWN_SKILL_ICONS = [
-  "Activity",
-  "BadgePercent",
-  "BedDouble",
-  "Bell",
-  "BicepsFlexed",
-  "BookMarked",
-  "BookOpen",
-  "Box",
-  "Briefcase",
-  "Calculator",
-  "Calendar",
-  "ChartNoAxesCombined",
-  "Check",
-  "CheckCheck",
-  "Code",
-  "Crown",
-  "Earth",
-  "FileText",
-  "Flag",
-  "GraduationCap",
-  "Heart",
-  "Highlighter",
-  "House",
-  "Languages",
-  "Leaf",
-  "Library",
-  "Lightbulb",
-  "List",
-  "ListMinus",
-  "ListPlus",
+  // Communication & messaging
   "Mail",
-  "Map",
   "MessageCircle",
   "MessageCircleQuestion",
   "MessageCircleReply",
-  "Music",
+  "Speech",
+
+  // Writing & documents
+  "BookMarked",
+  "BookOpen",
+  "FileText",
+  "Highlighter",
   "Notebook",
-  "PartyPopper",
   "Pencil",
   "PencilLine",
-  "Plane",
-  "Popcorn",
-  "Repeat",
-  "Salad",
   "ScrollText",
+  "SpellCheck",
+  "TextQuote",
+
+  // Search & research
+  "Earth",
+  "Library",
+  "Map",
   "Search",
+  "TextSearch",
+
+  // Lists, tasks & organization
+  "Box",
+  "Calendar",
+  "Check",
+  "CheckCheck",
+  "Flag",
+  "List",
+  "ListMinus",
+  "ListPlus",
+  "Repeat",
+  "Tags",
+  "Timer",
+
+  // Commerce, finance & math
+  "BadgePercent",
+  "Calculator",
+  "Scale",
   "ShoppingBag",
   "ShoppingCart",
   "Sigma",
-  "Sparkles",
-  "Speech",
-  "SpellCheck",
-  "Star",
-  "Table2",
-  "Tags",
+
+  // Career & professional
+  "Briefcase",
+  "Crown",
+  "GraduationCap",
+  "Rocket",
   "Target",
-  "TextQuote",
-  "TextSearch",
-  "Timer",
+
+  // Learning & creativity
+  "Lightbulb",
+  "Sparkles",
   "WandSparkles",
   "Zap",
+
+  // Code & data
+  "Activity",
+  "ChartNoAxesCombined",
+  "Code",
+  "Table2",
+
+  // Social & entertainment
+  "Heart",
+  "Music",
+  "PartyPopper",
+  "Popcorn",
+  "Star",
+
+  // Health & lifestyle
+  "BedDouble",
+  "BicepsFlexed",
+  "Leaf",
+  "Salad",
+
+  // Travel & places
+  "Plane",
+
+  // Language
+  "Languages",
+
+  // Home & notifications
+  "Bell",
+  "House",
 ] as const;
