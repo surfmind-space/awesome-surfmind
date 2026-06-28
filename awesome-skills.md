@@ -32,3 +32,23 @@ tags:
 -->
 
 </details>
+
+<details>
+<summary><strong>Interview Coach</strong></summary>
+
+High-rigor interview coaching skill for job seekers. Use when someone wants structured prep, transcript analysis, practice drills, storybank management, or performance tracking.
+
+- Source: https://github.com/noamseg/interview-coach-skill/tree/main
+- Tags: career, learning, writing
+
+<!-- surfmind:community-skill
+url: https://github.com/noamseg/interview-coach-skill/tree/main
+shortDescription: High-rigor interview coaching skill for job seekers. Use when someone wants structured prep, transcript analysis, practice drills, storybank management, or performance tracking.
+submittedBy: "noamseg"
+tags:
+  - career
+  - learning
+  - writing
+-->
+
+</details>
