@@ -1,68 +1,49 @@
 ---
 name: cover-letter-builder
-description: Builds a tailored cover letter from a visible job description and user-provided background, with research, keywords, gap handling, and an approval-ready draft.
+description: Builds a tailored cover letter from a job description and the user's background — researches the company, mirrors keywords, handles gaps, and drafts an approval-ready letter. Use when the user wants help writing a cover letter or application letter, or applying for a job or position.
 metadata:
   author: surfmind
   icon: Mail
   tags:
     - career
     - writing
-    - marketing
 ---
 
 # Cover Letter Builder
 
-Create a tailored cover letter from the selected text, visible page, or pasted job description. Adapted from `santifer/career-ops` `cover` mode while keeping the output browser-native and reviewable in chat.
+Create a tailored cover letter from the selected text, visible page, or pasted job description, and draft it in chat for review. Before drafting, confirm a real job description is present — a role title, a company name, and responsibilities or requirements. If it is missing, ask the user to paste the posting or open it. Use only achievements and facts the user has supplied; never invent numbers, employers, or qualifications, and keep the letter specific to this company and role rather than generic filler. Adapted from [santifer/career-ops](https://github.com/santifer/career-ops/tree/main) `cover` mode.
 
-## Mandatory Gate
+1. Parse the job description: exact role title, company, location, top competencies, mission language, start-date signals, language requirements, domain, and tone.
+2. Research the company when current context would materially improve the letter — summarize what it appears to be building, prioritizing, or struggling with — and ask the user to confirm or correct the synthesis before using it.
+3. Extract 8-10 phrases to mirror: ATS-critical terms (titles, tools, methods, domain terms) and human trust signals (verbs, product nouns, team framing, outcome language from the posting).
+4. Identify gaps only when visible from the user's background — domain mismatch, language requirement, start date, title mismatch, relocation, authorization — and ask how they want to handle any real one before writing.
+5. If not already clear, ask the four drafting inputs: why this role or company, what problem they would help solve, how they would approach it, and the desired tone (formal, direct, conversational, or mirror the posting). If no achievements are available, ask for 3-5 proof points first.
+6. Draft the letter: candidate header (when provided), role and company line, optional greeting, a two-sentence opening, one profile paragraph, four to five achievement bullets when there are enough proof points, a short "problems I will solve" paragraph, and a close that acknowledges any confirmed gap.
 
-Before drafting, confirm that a real job description is present. A valid job description includes a role title, a company name, and responsibilities or requirements. If it is missing, ask the user to paste the job description or open the posting.
+Write in active voice and keep every major claim backed by a number, system, product, customer, team, or stated requirement. Mirror the job's vocabulary but not its structure — use each keyword once, placed in the opening, profile paragraph, achievements, and problems paragraph, and keep the personal "why this role" angle and the close in the user's own words. Avoid filler like "excited to apply", "passionate about", "perfect fit", "proven track record", "leverage", "synergy", and "cutting-edge". List any keyword you cannot include honestly after the draft. Return **Research and angle**, **Keywords to mirror**, **Questions before drafting** (when needed), then the **Draft cover letter** once you have enough to write.
 
-## Inputs To Use
+## Example
 
-- The visible job description or selected job text.
-- Company page context, product page context, or recent company information from search when available.
-- The user's resume, profile, achievements, writing preferences, and constraints from the conversation.
-- Any specific angle the user wants to emphasize.
+Job description (excerpt):
 
-## How To Work
+> **Customer Success Manager — Northwind (remote, US)**. Own onboarding and retention for SMB accounts. You'll reduce churn, run QBRs, and partner with Product on the roadmap. Experience with HubSpot and SQL a plus.
 
-1. Parse the job description: exact role title, company, location, top competencies, mission language, start date signals, language requirements, domain, and tone.
-2. Research the company when current context would materially improve the letter. Summarize what the company appears to be building, prioritizing, or struggling with. Ask the user to correct or confirm the synthesis before using it.
-3. Extract 8-10 phrases from the job description:
-   - **ATS-critical:** titles, tools, methods, domain terms.
-   - **Human trust signals:** verbs, product nouns, team framing, and outcome language from the posting.
-4. Identify profile gaps only when they are visible from the user's supplied background: domain mismatch, language requirement, start date, title mismatch, relocation, or authorization. Ask how the user wants to handle any real gap before writing.
-5. Ask for the four drafting inputs if they are not already clear:
-   - Why this role or company?
-   - What problem would the user help solve?
-   - How would they approach it?
-   - Desired tone: formal, direct, conversational, or mirror the job description.
-6. Select only real achievements the user provided. Preserve exact numbers and claims. If no achievements are available, ask for 3-5 proof points before drafting.
-7. Draft the letter in chat for review. Keep it specific to the company and role. Do not generate generic filler.
+User background:
 
-## Draft Structure
+> CSM at Acme, 2022–present. Cut SMB churn from 9% to 5% in a year. Ran 40+ QBRs. Comfortable in HubSpot; learning SQL.
 
-Use:
+Output:
 
-- Candidate header if the user provided those details.
-- Role and company line.
-- Optional greeting.
-- Two-sentence opening.
-- One profile paragraph.
-- Four to five achievement bullets when the user supplied enough proof points.
-- A short "problems I will solve" paragraph.
-- Closing with any confirmed gap acknowledgment.
-
-## Writing Rules
-
-- Use active voice.
-- Avoid generic phrases like "I am excited to apply", "passionate about", "perfect fit", "proven track record", "leverage", "synergy", and "cutting-edge".
-- Keep claims concrete: a number, system, product, customer, team, or visible job requirement should support each major claim.
-- Mirror the job's vocabulary, not its structure. Use each keyword once, never repeated for density.
-- Apply mirrored keywords to the opening, the profile paragraph, the vocabulary around achievements, and the problems paragraph. Keep them out of the personal "why this role" angle and the closing, which stay in the user's own words.
-- If a keyword cannot be included honestly, list it after the draft for manual review.
-
-## Output Format
-
-Return **Research and angle**, **Keywords to mirror**, **Questions before drafting** when needed, then **Draft cover letter** once the user has provided enough information.
+> **Research and angle:** Northwind sells SMB-focused SaaS and is pushing on retention — lead with the churn turnaround. _Confirm this read before I use it._
+>
+> **Keywords to mirror:** onboarding, retention, churn, QBRs, SMB accounts, HubSpot, partner with Product.
+>
+> **Questions before drafting:** Why Northwind specifically, and what tone do you want — direct or conversational?
+>
+> **Draft cover letter:**
+>
+> Dear Hiring Team,
+>
+> I cut SMB churn from 9% to 5% in a year at Acme, and I'd like to do the same for Northwind's accounts. As a CSM owning onboarding and retention, I ran 40+ QBRs and worked alongside Product to close the gaps those calls surfaced...
+>
+> _SQL is listed as a plus — your background says "learning," so I framed it honestly rather than claiming proficiency._
