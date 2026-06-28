@@ -14,6 +14,9 @@ export const SKILL_TAG_CATEGORIES = {
   productivity: "Productivity",
   finance: "Finance",
   career: "Career",
+  hr: "HR & Recruiting",
+  legal: "Legal & Compliance",
+  security: "Security & Trust",
 } as const;
 
 export const KNOWN_SKILL_TAGS = Object.keys(SKILL_TAG_CATEGORIES) as Array<

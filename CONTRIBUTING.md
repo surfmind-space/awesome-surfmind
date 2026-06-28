@@ -107,6 +107,9 @@ Allowed tags:
 | `data`         | Data & Analytics              | Analyze, summarize, and work with data and metrics                         |
 | `automation`   | Browser & Workflow Automation | Automate browser actions and multi-step workflows                          |
 | `career`       | Career                        | Review jobs, prepare applications, interviews, outreach, and career moves   |
+| `hr`           | HR & Recruiting               | Screen candidates, draft HR documents, and support recruiting workflows     |
+| `legal`        | Legal & Compliance            | Review, draft, and explain legal or compliance-oriented documents           |
+| `security`     | Security & Trust              | Detect risks, scams, abuse, and other safety or trust issues                |
 
 ## Icons
 
