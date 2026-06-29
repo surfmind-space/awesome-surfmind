@@ -47,18 +47,14 @@ Community-maintained SurfMind-compatible skills.
 | [Email Marketing](https://github.com/claude-office-skills/skills/tree/main/email-marketing) | claude-office-skills | minnxdao | Marketing & Sales, Writing & Communication | Email marketing workflow for campaign strategy, sequences, copy, testing, and deliverability planning. |  |
 | [Lead Qualification](https://github.com/claude-office-skills/skills/tree/main/lead-qualification) | claude-office-skills | minnxdao | Marketing & Sales | Scores and qualifies leads based on fit, signals, criteria, and sales readiness. |  |
 | [Lead Research](https://github.com/claude-office-skills/skills/tree/main/lead-research) | claude-office-skills | minnxdao | Marketing & Sales, Reading & Research | Researches companies and contacts for sales outreach, account planning, and prospect context. |  |
-| [LinkedIn Automation](https://github.com/claude-office-skills/skills/tree/main/linkedin-automation) | claude-office-skills | minnxdao | Marketing & Sales, Social & Content | LinkedIn marketing and lead-generation workflow for content, outreach, and professional networking plans. |  |
 | [Proposal Writer](https://github.com/claude-office-skills/skills/tree/main/proposal-writer) | claude-office-skills | minnxdao | Marketing & Sales, Writing & Communication | Writes business proposals, partnership pitches, and deal documents from requirements and context. |  |
 | [SEO Optimizer](https://github.com/claude-office-skills/skills/tree/main/seo-optimizer) | claude-office-skills | minnxdao | Marketing & Sales, Reading & Research | SEO strategy skill for keyword research, on-page optimization, content audits, and ranking improvements. |  |
-| [Social Publisher](https://github.com/claude-office-skills/skills/tree/main/social-publisher) | claude-office-skills | minnxdao | Social & Content, Marketing & Sales | Cross-platform social publishing workflow for adapting posts, captions, and content plans. |  |
-| [TikTok Marketing](https://github.com/claude-office-skills/skills/tree/main/tiktok-marketing) | claude-office-skills | minnxdao | Social & Content, Marketing & Sales | TikTok content strategy skill for video ideas, hooks, captions, posting plans, and analytics review. |  |
 | [Applicant Screening](https://github.com/claude-office-skills/skills/tree/main/applicant-screening) | claude-office-skills | minnxdao | HR & Recruiting, Career | Screens job applications against role requirements and produces structured candidate evaluations. |  |
 | [Cover Letter](https://github.com/claude-office-skills/skills/tree/main/cover-letter) | claude-office-skills | minnxdao | Career, Writing & Communication | Writes personalized cover letters tailored to job descriptions, company context, and candidate background. |  |
 | [Job Description](https://github.com/claude-office-skills/skills/tree/main/job-description) | claude-office-skills | minnxdao | HR & Recruiting, Writing & Communication | Creates clear, inclusive job postings with responsibilities, requirements, and hiring criteria. |  |
 | [Offer Letter](https://github.com/claude-office-skills/skills/tree/main/offer-letter) | claude-office-skills | minnxdao | HR & Recruiting, Legal & Compliance | Generates professional employment offer letters with role, compensation, terms, and next steps. |  |
 | [Resume Tailor](https://github.com/claude-office-skills/skills/tree/main/resume-tailor) | claude-office-skills | minnxdao | Career, Writing & Communication | Optimizes resumes for specific job descriptions by matching requirements, keywords, and proof points. |  |
 | [Contract Review](https://github.com/claude-office-skills/skills/tree/main/contract-review) | claude-office-skills | minnxdao | Legal & Compliance | Reviews contracts for risks, missing terms, plain-language explanations, and negotiation priorities. |  |
-| [Contract Template](https://github.com/claude-office-skills/skills/tree/main/contract-template) | claude-office-skills | minnxdao | Legal & Compliance, Writing & Communication | Drafts reusable contract templates and clause structures for common business agreements. |  |
 | [Crypto Report](https://github.com/claude-office-skills/skills/tree/main/crypto-report) | claude-office-skills | minnxdao | Finance, Reading & Research | Cryptocurrency research workflow covering projects, tokenomics, market context, and risk factors. |  |
 | [Data Analysis](https://github.com/claude-office-skills/skills/tree/main/data-analysis) | claude-office-skills | minnxdao | Data & Analytics, Finance | Analyzes spreadsheet or tabular data, finds insights, and creates report-ready summaries. |  |
 | [DCF Valuation](https://github.com/claude-office-skills/skills/tree/main/dcf-valuation) | claude-office-skills | minnxdao | Finance | Builds discounted cash flow valuation logic, assumptions, scenarios, and investment outputs. |  |
@@ -873,26 +869,6 @@ tags:
 </details>
 
 <details>
-<summary><strong>LinkedIn Automation</strong></summary>
-
-LinkedIn marketing and lead-generation workflow for content, outreach, and professional networking plans.
-
-- Source: https://github.com/claude-office-skills/skills/tree/main/linkedin-automation
-- Submitted by: minnxdao
-- Tags: marketing, content
-
-<!-- surfmind:community-skill
-url: https://github.com/claude-office-skills/skills/tree/main/linkedin-automation
-shortDescription: LinkedIn marketing and lead-generation workflow for content, outreach, and professional networking plans.
-submittedBy: "minnxdao"
-tags:
-  - marketing
-  - content
--->
-
-</details>
-
-<details>
 <summary><strong>Proposal Writer</strong></summary>
 
 Writes business proposals, partnership pitches, and deal documents from requirements and context.
@@ -928,46 +904,6 @@ submittedBy: "minnxdao"
 tags:
   - marketing
   - research
--->
-
-</details>
-
-<details>
-<summary><strong>Social Publisher</strong></summary>
-
-Cross-platform social publishing workflow for adapting posts, captions, and content plans.
-
-- Source: https://github.com/claude-office-skills/skills/tree/main/social-publisher
-- Submitted by: minnxdao
-- Tags: content, marketing
-
-<!-- surfmind:community-skill
-url: https://github.com/claude-office-skills/skills/tree/main/social-publisher
-shortDescription: Cross-platform social publishing workflow for adapting posts, captions, and content plans.
-submittedBy: "minnxdao"
-tags:
-  - content
-  - marketing
--->
-
-</details>
-
-<details>
-<summary><strong>TikTok Marketing</strong></summary>
-
-TikTok content strategy skill for video ideas, hooks, captions, posting plans, and analytics review.
-
-- Source: https://github.com/claude-office-skills/skills/tree/main/tiktok-marketing
-- Submitted by: minnxdao
-- Tags: content, marketing
-
-<!-- surfmind:community-skill
-url: https://github.com/claude-office-skills/skills/tree/main/tiktok-marketing
-shortDescription: TikTok content strategy skill for video ideas, hooks, captions, posting plans, and analytics review.
-submittedBy: "minnxdao"
-tags:
-  - content
-  - marketing
 -->
 
 </details>
@@ -1087,26 +1023,6 @@ shortDescription: Reviews contracts for risks, missing terms, plain-language exp
 submittedBy: "minnxdao"
 tags:
   - legal
--->
-
-</details>
-
-<details>
-<summary><strong>Contract Template</strong></summary>
-
-Drafts reusable contract templates and clause structures for common business agreements.
-
-- Source: https://github.com/claude-office-skills/skills/tree/main/contract-template
-- Submitted by: minnxdao
-- Tags: legal, writing
-
-<!-- surfmind:community-skill
-url: https://github.com/claude-office-skills/skills/tree/main/contract-template
-shortDescription: Drafts reusable contract templates and clause structures for common business agreements.
-submittedBy: "minnxdao"
-tags:
-  - legal
-  - writing
 -->
 
 </details>
