@@ -1,8 +1,8 @@
 ---
 name: portfolio-project-review
 description: Evaluates whether a portfolio project, side project, or resume project idea is worth building to land a target role, scoring role signal, uniqueness, demo ability, metrics, time to a working version, and interview-story potential. Use when the user asks if a project idea is worth building, wants to evaluate side projects for a job search, or wants to pick a project that signals to hiring managers.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Rocket
   tags:
     - career

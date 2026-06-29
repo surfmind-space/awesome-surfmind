@@ -1,8 +1,8 @@
 ---
 name: terminology-keeper
 description: Builds and applies a consistent glossary for translation — extracting recurring domain terms, suggesting preferred translations, and flagging inconsistencies so terminology stays uniform across a page or document. Use when the user needs term consistency across translations or localization, mentions a glossary, terminology, or terminology database, or asks to translate domain material uniformly.
+author: surfmind
 metadata:
-  author: surfmind
   icon: BookMarked
   tags:
     - language

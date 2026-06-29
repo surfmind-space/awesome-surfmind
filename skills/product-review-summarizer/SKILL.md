@@ -1,8 +1,8 @@
 ---
 name: product-review-summarizer
 description: Summarizes product reviews into recurring pros, cons, reliability issues, buyer-fit notes, and repeated red flags. Use when the user asks to summarize, analyze, or compare product reviews, customer feedback, ratings, or user reviews on a store, app, restaurant, or marketplace listing.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Star
   tags:
     - shopping

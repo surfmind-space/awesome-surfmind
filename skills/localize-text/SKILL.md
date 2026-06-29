@@ -1,8 +1,8 @@
 ---
 name: localize-text
 description: Translates and localizes text for a target language, region, and audience — adapts idioms, units, currency, dates, examples, formality, and tone while preserving the original message. Use when the user asks to translate, localize, internationalize (i18n), or adapt content for a specific country, language, or cultural audience.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Earth
   tags:
     - language

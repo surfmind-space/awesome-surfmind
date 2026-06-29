@@ -1,8 +1,8 @@
 ---
 name: outline-builder
 description: Turns messy notes, pages, or selected text into a structured outline with headings, key points, evidence, and gaps. Use when the user wants to "organize my notes", "create an outline", "structure my thoughts", "outline from notes", or pull bullet points and key points out of rough material.
+author: surfmind
 metadata:
-  author: surfmind
   icon: List
   tags:
     - writing

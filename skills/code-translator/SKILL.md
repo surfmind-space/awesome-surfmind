@@ -1,8 +1,8 @@
 ---
 name: code-translator
 description: Converts a code snippet from one programming language to another while preserving behavior and flagging library, runtime, and type-system differences. Use when the user asks to translate, port, rewrite, or convert code between languages — "port this to Python", "rewrite in Rust", "convert Java to Go".
+author: surfmind
 metadata:
-  author: surfmind
   icon: Repeat
   tags:
     - code

@@ -1,8 +1,8 @@
 ---
 name: tone-rewriter
 description: Rewrites selected text to match a requested tone such as professional, friendly, casual, formal, confident, or empathetic, while preserving meaning, facts, and formatting. Use when the user says "rewrite this", "rephrase", "reword", "paraphrase", "change the tone", "adjust the style", or "make this sound more formal/casual/friendly/confident".
+author: surfmind
 metadata:
-  author: surfmind
   icon: WandSparkles
   tags:
     - writing

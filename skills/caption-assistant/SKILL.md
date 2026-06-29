@@ -1,8 +1,8 @@
 ---
 name: caption-assistant
 description: Writes captions, accessibility alt text, and short image or page descriptions tailored to the visible content and audience. Use when the user asks to "describe this image", "write alt text", "caption this", or needs screen reader text, a11y descriptions, image descriptions, or social captions.
+author: surfmind
 metadata:
-  author: surfmind
   icon: TextQuote
   tags:
     - content

@@ -1,8 +1,8 @@
 ---
 name: interview-prep
 description: Prepares for a specific company and role by mapping likely interview rounds, audience-specific questions, proof points, STAR story gaps, and questions to ask back. Use when the user mentions interview prep, preparing for a job interview, a mock interview, behavioral questions, or practicing for an upcoming round.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Target
   tags:
     - career

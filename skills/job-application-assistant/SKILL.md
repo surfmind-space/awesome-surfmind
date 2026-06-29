@@ -1,8 +1,8 @@
 ---
 name: job-application-assistant
 description: Fills visible job application forms by identifying every field, drafting grounded answers, flagging sensitive questions, and pausing before any submit step. Use when the user is filling out a job application, applying to a position, or completing a career page or hiring form.
+author: surfmind
 metadata:
-  author: surfmind
   icon: PencilLine
   tags:
     - career

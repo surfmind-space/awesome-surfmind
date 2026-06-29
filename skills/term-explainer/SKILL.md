@@ -1,8 +1,8 @@
 ---
 name: term-explainer
 description: Finds the technical terms, acronyms, and domain phrases on the current page and defines each in plain language, with why it matters in this context. Use when the user says "explain the jargon", "define these terms", "what does X mean here", "build a glossary", or asks about acronyms, abbreviations, or unfamiliar terminology on the page.
+author: surfmind
 metadata:
-  author: surfmind
   icon: BookMarked
   tags:
     - research

@@ -1,8 +1,8 @@
 ---
 name: fix-grammar
 description: Corrects grammar, spelling, punctuation, and awkward wording in text while preserving its meaning, tone, and formatting. Use when the user says "fix grammar", "proofread", "correct this", "check spelling", or wants typos and grammatical errors cleaned up in selected or provided text.
+author: surfmind
 metadata:
-  author: surfmind
   icon: SpellCheck
   tags:
     - writing

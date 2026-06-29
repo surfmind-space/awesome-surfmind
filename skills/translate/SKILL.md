@@ -1,8 +1,8 @@
 ---
 name: translate
 description: Translates selected or provided text into a chosen target language while preserving meaning, tone, and formatting. Use when the user says "translate this", "in Spanish/French/etc.", "what does this say in English", or wants highlighted or provided text converted to another language.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Languages
   tags:
     - language

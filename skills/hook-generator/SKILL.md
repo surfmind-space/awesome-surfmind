@@ -1,8 +1,8 @@
 ---
 name: hook-generator
 description: Generates strong opening lines for a topic or page using curiosity, contrast, story, and data-driven angles while avoiding unsupported clickbait. Use when the user asks for a hook, intro, lead, headline, first sentence, or attention-grabbing opener for a post, article, video, newsletter, ad, or landing page.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Zap
   tags:
     - content

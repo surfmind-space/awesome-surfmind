@@ -4,6 +4,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
 import { generateReadmeMarkdown } from "./catalog.js";
+import { readSkill } from "./skills.js";
 
 const readme = `# SurfMind Skills
 
@@ -66,6 +67,28 @@ Research the selected topic.
     generated,
     /\| \[Research Helper\]\(\.\/skills\/research-helper\/SKILL\.md\) \| Reading & Research \| Helps research a topic\. \|/,
   );
+});
+
+test("reads author from top-level frontmatter", () => {
+  const rootDir = mkdtempSync(join(tmpdir(), "surfmind-skills-"));
+  const skillDir = join(rootDir, "skills", "research-helper");
+  mkdirSync(skillDir, { recursive: true });
+  writeFileSync(
+    join(skillDir, "SKILL.md"),
+    `---
+name: research-helper
+description: Helps research a topic.
+author: SurfMind
+metadata:
+  tags:
+    - research
+---
+
+Research the selected topic.
+`,
+  );
+
+  assert.equal(readSkill(rootDir, "research-helper").author, "SurfMind");
 });
 
 test("rejects non-kebab-case frontmatter names", () => {

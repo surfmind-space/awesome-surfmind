@@ -1,8 +1,8 @@
 ---
 name: reply-assistant
 description: Drafts and refines replies for email, chat, Slack, comments, support tickets, and follow-up messages — adjusting tone and formality, summarizing prior context, and addressing every open question. Use when the user asks to reply to, respond to, or draft a response for a message, email, comment, or support thread.
+author: surfmind
 metadata:
-  author: surfmind
   icon: MessageCircleReply
   tags:
     - writing

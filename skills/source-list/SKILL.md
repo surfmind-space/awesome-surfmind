@@ -1,8 +1,8 @@
 ---
 name: source-list
 description: Lists the citations, links, and referenced sources a page relies on and explains what each one appears to support, flagging anything missing, circular, or weakly sourced. Use when the user says "list the sources", "what does this cite", "show the references", "check the citations", or asks for a page's bibliography, footnotes, or links.
+author: surfmind
 metadata:
-  author: surfmind
   icon: List
   tags:
     - research

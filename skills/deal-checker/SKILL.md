@@ -1,8 +1,8 @@
 ---
 name: deal-checker
 description: Judges whether a product's price is worth it by checking typical prices, alternatives, total cost, and timing, then giving a clear buy / wait / skip call. Use when the user asks "is this a good deal", "should I buy this", "is this worth the price", "too expensive", or wants a price check or comparison before purchasing.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Tags
   tags:
     - shopping

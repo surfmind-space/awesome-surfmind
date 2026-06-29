@@ -1,8 +1,8 @@
 ---
 name: repo-onboarder
 description: Explains a repository's purpose, structure, setup and run commands, key scripts, and the first files worth opening. Use when the user wants to understand a new repo or codebase — "what does this project do", "how do I get started", "give me a codebase overview", "onboard me to this repo".
+author: surfmind
 metadata:
-  author: surfmind
   icon: Code
   tags:
     - code

@@ -1,8 +1,8 @@
 ---
 name: api-to-example
 description: Turns REST API documentation into a runnable curl, fetch, or code example with required headers, request body, and placeholders for secrets. Use when the user wants to generate a request from API docs, an endpoint, or a Swagger/OpenAPI spec — "give me a curl for this", "show a fetch example", "how do I call this API".
+author: surfmind
 metadata:
-  author: surfmind
   icon: Code
   tags:
     - code

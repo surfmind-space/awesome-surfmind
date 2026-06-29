@@ -1,8 +1,8 @@
 ---
 name: job-offer-compare
 description: Compares two or more job postings, offers, or listings side by side and ranks them on a weighted scorecard covering fit, level, compensation, benefits, growth, remote quality, company signals, and time to offer. Use when the user asks to compare job offers, weigh salary and benefits across listings, decide which job to take, or evaluate competing opportunities.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Scale
   tags:
     - career

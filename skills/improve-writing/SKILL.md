@@ -1,8 +1,8 @@
 ---
 name: improve-writing
 description: Edits and rewrites prose to improve clarity, flow, tone, and polish while preserving meaning and voice, as a substantive edit beyond grammar fixes. Use when the user says "improve this", "polish", "make this better", "make it flow", "edit my writing", or wants a draft, email, or paragraph refined.
+author: surfmind
 metadata:
-  author: surfmind
   icon: WandSparkles
   tags:
     - writing

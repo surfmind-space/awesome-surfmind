@@ -1,8 +1,8 @@
 ---
 name: coupon-hunter
 description: Finds legitimate discount codes for the store the user is shopping, points to the sources most likely to carry a working code, and flags suspicious or unverifiable coupon claims. Use when the user asks for a "promo code", "coupon code", "discount code", "voucher", "deal", or "savings" for an online store, or asks "is there a code for this".
+author: surfmind
 metadata:
-  author: surfmind
   icon: BadgePercent
   tags:
     - shopping

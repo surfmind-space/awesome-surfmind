@@ -1,8 +1,8 @@
 ---
 name: landing-page-critique
 description: Reviews a landing page for message clarity, audience fit, proof, calls to action, friction, and conversion improvements. Use when the user wants feedback on a landing page, homepage, pricing page, or signup page, asks for a website copy or CRO review, or wants to improve conversions or funnel performance.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Target
   tags:
     - marketing

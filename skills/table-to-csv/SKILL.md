@@ -1,8 +1,8 @@
 ---
 name: table-to-csv
 description: Converts visible web tables — HTML tables, pricing grids, comparison charts, reports — into clean Markdown tables that users can copy or download as CSV from the extension. Use when the user wants to extract, scrape, convert, copy, or export a table from a webpage.
+author: surfmind
 metadata:
-  author: surfmind
   icon: List
   tags:
     - data

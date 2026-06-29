@@ -1,8 +1,8 @@
 ---
 name: style-match
 description: Rewrites, rephrases, and adapts text to match the tone, voice, sentence structure, vocabulary, and formatting of a reference example while preserving meaning and facts. Use when the user asks to match a writing style, mimic a voice, copy a tone, or write like a provided sample.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Highlighter
   tags:
     - writing

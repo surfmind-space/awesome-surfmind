@@ -1,8 +1,8 @@
 ---
 name: summarize
 description: Creates a summary that adapts to the source, such as an article, email thread, chat, PDF, document, image, or transcript, while surfacing the key points, decisions, and takeaways. Use when the user says "summarize", "TLDR", "key points", "recap", "overview", or "condense this".
+author: surfmind
 metadata:
-  author: surfmind
   icon: ScrollText
   tags:
     - research

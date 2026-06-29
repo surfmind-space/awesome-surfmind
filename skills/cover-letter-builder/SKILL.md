@@ -1,8 +1,8 @@
 ---
 name: cover-letter-builder
 description: Builds a tailored cover letter from a job description and the user's background — researches the company, mirrors keywords, handles gaps, and drafts an approval-ready letter. Use when the user wants help writing a cover letter or application letter, or applying for a job or position.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Mail
   tags:
     - career
