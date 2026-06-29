@@ -5,53 +5,74 @@ Community-maintained SurfMind-compatible skills.
 ## Skills
 
 <!-- surfmind:awesome-table:start -->
-| Skill | Submitted By | Tags | Description | Links |
-| --- | --- | --- | --- | --- |
-| [Humanizer](https://github.com/blader/humanizer/tree/main) | minnxdao | Writing & Communication, Social & Content | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. |  |
-| [Interview Coach](https://github.com/noamseg/interview-coach-skill/tree/main) | minnxdao | Career, Learning & Tutoring, Writing & Communication | High-rigor interview coaching skill for job seekers. Use when someone wants structured prep, transcript analysis, practice drills, storybank management, or performance tracking. |  |
-| [Academic Search](https://github.com/claude-office-skills/skills/tree/main/academic-search) | minnxdao | Reading & Research, Learning & Tutoring | Scholarly paper research for finding, understanding, and synthesizing academic literature. |  |
-| [Company Research](https://github.com/claude-office-skills/skills/tree/main/company-research) | minnxdao | Reading & Research, Finance | Company deep research for due diligence, business model analysis, market context, and competitive positioning. |  |
-| [Competitive Analysis](https://github.com/claude-office-skills/skills/tree/main/competitive-analysis) | minnxdao | Reading & Research, Marketing & Sales | Competitor research for comparing products, pricing, positioning, and market strategy. |  |
-| [Deep Research](https://github.com/claude-office-skills/skills/tree/main/deep-research) | minnxdao | Reading & Research | Multi-source research workflow for synthesizing information into structured decision-ready reports. |  |
-| [News Monitor](https://github.com/claude-office-skills/skills/tree/main/news-monitor) | minnxdao | Reading & Research | News tracking and digest workflow for monitoring topics, companies, industries, and current events. |  |
-| [Web Search](https://github.com/claude-office-skills/skills/tree/main/web-search) | minnxdao | Reading & Research | Search strategy skill for formulating better web queries, evaluating results, and synthesizing findings. |  |
-| [Email Drafter](https://github.com/claude-office-skills/skills/tree/main/email-drafter) | minnxdao | Writing & Communication, Productivity | Professional email drafting for replies, follow-ups, requests, difficult news, and outreach. |  |
-| [Email Classifier](https://github.com/claude-office-skills/skills/tree/main/email-classifier) | minnxdao | Writing & Communication, Productivity | Email triage skill for categorizing messages by type, priority, and required action. |  |
-| [Meeting Notes](https://github.com/claude-office-skills/skills/tree/main/meeting-notes) | minnxdao | Productivity, Writing & Communication | Transforms raw notes, transcripts, or meeting summaries into decisions, action items, and structured minutes. |  |
-| [Weekly Report](https://github.com/claude-office-skills/skills/tree/main/weekly-report) | minnxdao | Productivity, Writing & Communication | Creates consistent weekly status reports from updates, notes, blockers, and accomplishments. |  |
-| [Changelog Generator](https://github.com/claude-office-skills/skills/tree/main/changelog-generator) | minnxdao | Productivity, Coding & Development, Writing & Communication | Generates changelogs and release notes from commits, issue lists, or product updates. |  |
-| [Ads Copywriter](https://github.com/claude-office-skills/skills/tree/main/ads-copywriter) | minnxdao | Marketing & Sales, Social & Content, Writing & Communication | Multi-platform ad copy generation for Google Ads, Meta, TikTok, LinkedIn, and A/B variants. |  |
-| [Brand Guidelines](https://github.com/claude-office-skills/skills/tree/main/brand-guidelines) | minnxdao | Marketing & Sales, Social & Content | Creates and maintains brand style guides for voice, visuals, messaging, and consistency. |  |
-| [Content Writer](https://github.com/claude-office-skills/skills/tree/main/content-writer) | minnxdao | Writing & Communication, Social & Content, Marketing & Sales | Research and writing workflow for blog posts, articles, website copy, and marketing content. |  |
-| [Email Marketing](https://github.com/claude-office-skills/skills/tree/main/email-marketing) | minnxdao | Marketing & Sales, Writing & Communication | Email marketing workflow for campaign strategy, sequences, copy, testing, and deliverability planning. |  |
-| [Lead Qualification](https://github.com/claude-office-skills/skills/tree/main/lead-qualification) | minnxdao | Marketing & Sales | Scores and qualifies leads based on fit, signals, criteria, and sales readiness. |  |
-| [Lead Research](https://github.com/claude-office-skills/skills/tree/main/lead-research) | minnxdao | Marketing & Sales, Reading & Research | Researches companies and contacts for sales outreach, account planning, and prospect context. |  |
-| [LinkedIn Automation](https://github.com/claude-office-skills/skills/tree/main/linkedin-automation) | minnxdao | Marketing & Sales, Social & Content | LinkedIn marketing and lead-generation workflow for content, outreach, and professional networking plans. |  |
-| [Proposal Writer](https://github.com/claude-office-skills/skills/tree/main/proposal-writer) | minnxdao | Marketing & Sales, Writing & Communication | Writes business proposals, partnership pitches, and deal documents from requirements and context. |  |
-| [SEO Optimizer](https://github.com/claude-office-skills/skills/tree/main/seo-optimizer) | minnxdao | Marketing & Sales, Reading & Research | SEO strategy skill for keyword research, on-page optimization, content audits, and ranking improvements. |  |
-| [Social Publisher](https://github.com/claude-office-skills/skills/tree/main/social-publisher) | minnxdao | Social & Content, Marketing & Sales | Cross-platform social publishing workflow for adapting posts, captions, and content plans. |  |
-| [TikTok Marketing](https://github.com/claude-office-skills/skills/tree/main/tiktok-marketing) | minnxdao | Social & Content, Marketing & Sales | TikTok content strategy skill for video ideas, hooks, captions, posting plans, and analytics review. |  |
-| [Applicant Screening](https://github.com/claude-office-skills/skills/tree/main/applicant-screening) | minnxdao | HR & Recruiting, Career | Screens job applications against role requirements and produces structured candidate evaluations. |  |
-| [Cover Letter](https://github.com/claude-office-skills/skills/tree/main/cover-letter) | minnxdao | Career, Writing & Communication | Writes personalized cover letters tailored to job descriptions, company context, and candidate background. |  |
-| [Job Description](https://github.com/claude-office-skills/skills/tree/main/job-description) | minnxdao | HR & Recruiting, Writing & Communication | Creates clear, inclusive job postings with responsibilities, requirements, and hiring criteria. |  |
-| [Offer Letter](https://github.com/claude-office-skills/skills/tree/main/offer-letter) | minnxdao | HR & Recruiting, Legal & Compliance | Generates professional employment offer letters with role, compensation, terms, and next steps. |  |
-| [Resume Tailor](https://github.com/claude-office-skills/skills/tree/main/resume-tailor) | minnxdao | Career, Writing & Communication | Optimizes resumes for specific job descriptions by matching requirements, keywords, and proof points. |  |
-| [Contract Review](https://github.com/claude-office-skills/skills/tree/main/contract-review) | minnxdao | Legal & Compliance | Reviews contracts for risks, missing terms, plain-language explanations, and negotiation priorities. |  |
-| [Contract Template](https://github.com/claude-office-skills/skills/tree/main/contract-template) | minnxdao | Legal & Compliance, Writing & Communication | Drafts reusable contract templates and clause structures for common business agreements. |  |
-| [Crypto Report](https://github.com/claude-office-skills/skills/tree/main/crypto-report) | minnxdao | Finance, Reading & Research | Cryptocurrency research workflow covering projects, tokenomics, market context, and risk factors. |  |
-| [Data Analysis](https://github.com/claude-office-skills/skills/tree/main/data-analysis) | minnxdao | Data & Analytics, Finance | Analyzes spreadsheet or tabular data, finds insights, and creates report-ready summaries. |  |
-| [DCF Valuation](https://github.com/claude-office-skills/skills/tree/main/dcf-valuation) | minnxdao | Finance | Builds discounted cash flow valuation logic, assumptions, scenarios, and investment outputs. |  |
-| [Expense Report](https://github.com/claude-office-skills/skills/tree/main/expense-report) | minnxdao | Finance, Productivity | Organizes and summarizes business expenses for reimbursement, review, and reporting. |  |
-| [Financial Modeling](https://github.com/claude-office-skills/skills/tree/main/financial-modeling) | minnxdao | Finance, Data & Analytics | Creates financial model structures, projections, assumptions, and analysis for business planning. |  |
-| [Investment Memo](https://github.com/claude-office-skills/skills/tree/main/investment-memo) | minnxdao | Finance, Writing & Communication | Writes investment memos with thesis, market, company, financials, risks, and recommendation structure. |  |
-| [Invoice Generator](https://github.com/claude-office-skills/skills/tree/main/invoice-generator) | minnxdao | Finance, Productivity | Creates professional invoice content with line items, terms, totals, and payment details. |  |
-| [Invoice Organizer](https://github.com/claude-office-skills/skills/tree/main/invoice-organizer) | minnxdao | Finance, Productivity | Organizes, categorizes, and tracks invoices and receipts for finance workflows. |  |
-| [NDA Generator](https://github.com/claude-office-skills/skills/tree/main/nda-generator) | minnxdao | Legal & Compliance | Creates non-disclosure agreements for different business scenarios and confidentiality needs. |  |
-| [SaaS Metrics](https://github.com/claude-office-skills/skills/tree/main/saas-metrics) | minnxdao | Finance, Data & Analytics | Analyzes SaaS metrics such as MRR, ARR, churn, LTV, CAC, cohorts, and investor reporting. |  |
-| [Stock Analysis](https://github.com/claude-office-skills/skills/tree/main/stock-analysis) | minnxdao | Finance, Reading & Research | Stock research workflow for fundamental analysis, technical context, risks, and investment summaries. |  |
-| [Chart Designer](https://github.com/claude-office-skills/skills/tree/main/chart-designer) | minnxdao | Data & Analytics, Social & Content | Designs data visualizations, chart choices, dashboards, and chart configuration guidance. |  |
-| [Diagram Creator](https://github.com/claude-office-skills/skills/tree/main/diagram-creator) | minnxdao | Social & Content, Coding & Development | Creates text-based diagrams such as Mermaid, PlantUML, flowcharts, sequences, and architecture diagrams. |  |
-| [Suspicious Email](https://github.com/claude-office-skills/skills/tree/main/suspicious-email) | minnxdao | Security & Trust, Writing & Communication | Analyzes emails for phishing, scam indicators, impersonation, and security threats. |  |
+| Skill | Author | Submitted By | Tags | Description | Links |
+| --- | --- | --- | --- | --- | --- |
+| [Humanizer](https://github.com/blader/humanizer/tree/main) | blader | minnxdao | Writing & Communication, Social & Content | Remove signs of AI-generated writing from text. Use when editing or reviewing text to make it sound more natural and human-written. |  |
+| [A/B Testing](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing) | coreyhaines31 | minnxdao | Marketing & Sales, Data & Analytics | Plan, design, and prioritize A/B tests, experiments, hypotheses, and growth experimentation programs. |  |
+| [AI SEO](https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo) | coreyhaines31 | minnxdao | Marketing & Sales, Reading & Research | Optimize content and sites for AI search visibility, citations, answer engines, and agent-readable knowledge formats. |  |
+| [Community Marketing](https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing) | coreyhaines31 | minnxdao | Marketing & Sales, Social & Content | Build community-led growth strategies for Discord, Slack, forums, ambassador programs, and user engagement. |  |
+| [Competitors](https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors) | coreyhaines31 | minnxdao | Marketing & Sales, Writing & Communication | Create competitor comparison, alternative, versus, and battle-card content for SEO and sales enablement. |  |
+| [Content Strategy](https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy) | coreyhaines31 | minnxdao | Marketing & Sales, Social & Content | Plan content strategy, topic clusters, editorial calendars, blog ideas, and content roadmaps. |  |
+| [Copy Editing](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing) | coreyhaines31 | minnxdao | Writing & Communication, Marketing & Sales | Edit, review, tighten, polish, and refresh existing marketing copy and outdated content. |  |
+| [Copywriting](https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting) | coreyhaines31 | minnxdao | Writing & Communication, Marketing & Sales | Write and improve persuasive website, landing page, pricing page, feature page, and product marketing copy. |  |
+| [CRO](https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro) | coreyhaines31 | minnxdao | Marketing & Sales | Review and improve conversion performance for landing pages, forms, pricing pages, and marketing pages. |  |
+| [Customer Research](https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research) | coreyhaines31 | minnxdao | Reading & Research, Marketing & Sales | Analyze customer interviews, surveys, reviews, support tickets, forums, and voice-of-customer insights. |  |
+| [Free Tools](https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools) | coreyhaines31 | minnxdao | Marketing & Sales, Coding & Development | Plan free tools, calculators, generators, graders, and engineering-as-marketing assets for lead generation and SEO. |  |
+| [Lead Magnets](https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets) | coreyhaines31 | minnxdao | Marketing & Sales, Writing & Communication | Plan lead magnets, gated content, content upgrades, checklists, templates, ebooks, and opt-in offers. |  |
+| [Marketing Ideas](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas) | coreyhaines31 | minnxdao | Marketing & Sales | Brainstorm SaaS and software marketing ideas, growth tactics, promotion strategies, and channel experiments. |  |
+| [Marketing Psychology](https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology) | coreyhaines31 | minnxdao | Marketing & Sales, Learning & Tutoring | Apply behavioral science, persuasion principles, cognitive biases, and decision-making models to marketing work. |  |
+| [Offers](https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers) | coreyhaines31 | minnxdao | Marketing & Sales, Writing & Communication | Design and improve offers, value framing, bonus stacks, guarantees, risk reversal, scarcity, and offer naming. |  |
+| [Onboarding](https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding) | coreyhaines31 | minnxdao | Marketing & Sales | Optimize post-signup onboarding, activation, first-run experiences, setup checklists, and time-to-value. |  |
+| [Paywalls](https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls) | coreyhaines31 | minnxdao | Marketing & Sales | Improve in-app paywalls, upgrade screens, upsell modals, feature gates, and freemium conversion moments. |  |
+| [Popups](https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups) | coreyhaines31 | minnxdao | Marketing & Sales, Writing & Communication | Create and optimize popups, modals, overlays, slide-ins, banners, exit-intent offers, and lead-capture prompts. |  |
+| [Pricing](https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing) | coreyhaines31 | minnxdao | Marketing & Sales, Finance | Plan pricing, packaging, tiers, freemium strategy, trials, value metrics, and monetization decisions. |  |
+| [Programmatic SEO](https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo) | coreyhaines31 | minnxdao | Marketing & Sales, Coding & Development | Plan programmatic SEO pages, templates, datasets, keyword patterns, and scalable landing-page systems. |  |
+| [Signup](https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup) | coreyhaines31 | minnxdao | Marketing & Sales | Optimize signup, registration, account creation, free-trial starts, signup forms, and trial activation flows. |  |
+| [Site Architecture](https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture) | coreyhaines31 | minnxdao | Marketing & Sales, Coding & Development | Plan website hierarchy, navigation, URL structure, internal linking, page maps, and information architecture. |  |
+| [Interview Coach](https://github.com/noamseg/interview-coach-skill/tree/main) | noamseg | minnxdao | Career, Learning & Tutoring, Writing & Communication | High-rigor interview coaching skill for job seekers. Use when someone wants structured prep, transcript analysis, practice drills, storybank management, or performance tracking. |  |
+| [Academic Search](https://github.com/claude-office-skills/skills/tree/main/academic-search) | claude-office-skills | minnxdao | Reading & Research, Learning & Tutoring | Scholarly paper research for finding, understanding, and synthesizing academic literature. |  |
+| [Company Research](https://github.com/claude-office-skills/skills/tree/main/company-research) | claude-office-skills | minnxdao | Reading & Research, Finance | Company deep research for due diligence, business model analysis, market context, and competitive positioning. |  |
+| [Competitive Analysis](https://github.com/claude-office-skills/skills/tree/main/competitive-analysis) | claude-office-skills | minnxdao | Reading & Research, Marketing & Sales | Competitor research for comparing products, pricing, positioning, and market strategy. |  |
+| [Deep Research](https://github.com/claude-office-skills/skills/tree/main/deep-research) | claude-office-skills | minnxdao | Reading & Research | Multi-source research workflow for synthesizing information into structured decision-ready reports. |  |
+| [News Monitor](https://github.com/claude-office-skills/skills/tree/main/news-monitor) | claude-office-skills | minnxdao | Reading & Research | News tracking and digest workflow for monitoring topics, companies, industries, and current events. |  |
+| [Web Search](https://github.com/claude-office-skills/skills/tree/main/web-search) | claude-office-skills | minnxdao | Reading & Research | Search strategy skill for formulating better web queries, evaluating results, and synthesizing findings. |  |
+| [Email Drafter](https://github.com/claude-office-skills/skills/tree/main/email-drafter) | claude-office-skills | minnxdao | Writing & Communication, Productivity | Professional email drafting for replies, follow-ups, requests, difficult news, and outreach. |  |
+| [Email Classifier](https://github.com/claude-office-skills/skills/tree/main/email-classifier) | claude-office-skills | minnxdao | Writing & Communication, Productivity | Email triage skill for categorizing messages by type, priority, and required action. |  |
+| [Meeting Notes](https://github.com/claude-office-skills/skills/tree/main/meeting-notes) | claude-office-skills | minnxdao | Productivity, Writing & Communication | Transforms raw notes, transcripts, or meeting summaries into decisions, action items, and structured minutes. |  |
+| [Weekly Report](https://github.com/claude-office-skills/skills/tree/main/weekly-report) | claude-office-skills | minnxdao | Productivity, Writing & Communication | Creates consistent weekly status reports from updates, notes, blockers, and accomplishments. |  |
+| [Changelog Generator](https://github.com/claude-office-skills/skills/tree/main/changelog-generator) | claude-office-skills | minnxdao | Productivity, Coding & Development, Writing & Communication | Generates changelogs and release notes from commits, issue lists, or product updates. |  |
+| [Ads Copywriter](https://github.com/claude-office-skills/skills/tree/main/ads-copywriter) | claude-office-skills | minnxdao | Marketing & Sales, Social & Content, Writing & Communication | Multi-platform ad copy generation for Google Ads, Meta, TikTok, LinkedIn, and A/B variants. |  |
+| [Brand Guidelines](https://github.com/claude-office-skills/skills/tree/main/brand-guidelines) | claude-office-skills | minnxdao | Marketing & Sales, Social & Content | Creates and maintains brand style guides for voice, visuals, messaging, and consistency. |  |
+| [Content Writer](https://github.com/claude-office-skills/skills/tree/main/content-writer) | claude-office-skills | minnxdao | Writing & Communication, Social & Content, Marketing & Sales | Research and writing workflow for blog posts, articles, website copy, and marketing content. |  |
+| [Email Marketing](https://github.com/claude-office-skills/skills/tree/main/email-marketing) | claude-office-skills | minnxdao | Marketing & Sales, Writing & Communication | Email marketing workflow for campaign strategy, sequences, copy, testing, and deliverability planning. |  |
+| [Lead Qualification](https://github.com/claude-office-skills/skills/tree/main/lead-qualification) | claude-office-skills | minnxdao | Marketing & Sales | Scores and qualifies leads based on fit, signals, criteria, and sales readiness. |  |
+| [Lead Research](https://github.com/claude-office-skills/skills/tree/main/lead-research) | claude-office-skills | minnxdao | Marketing & Sales, Reading & Research | Researches companies and contacts for sales outreach, account planning, and prospect context. |  |
+| [LinkedIn Automation](https://github.com/claude-office-skills/skills/tree/main/linkedin-automation) | claude-office-skills | minnxdao | Marketing & Sales, Social & Content | LinkedIn marketing and lead-generation workflow for content, outreach, and professional networking plans. |  |
+| [Proposal Writer](https://github.com/claude-office-skills/skills/tree/main/proposal-writer) | claude-office-skills | minnxdao | Marketing & Sales, Writing & Communication | Writes business proposals, partnership pitches, and deal documents from requirements and context. |  |
+| [SEO Optimizer](https://github.com/claude-office-skills/skills/tree/main/seo-optimizer) | claude-office-skills | minnxdao | Marketing & Sales, Reading & Research | SEO strategy skill for keyword research, on-page optimization, content audits, and ranking improvements. |  |
+| [Social Publisher](https://github.com/claude-office-skills/skills/tree/main/social-publisher) | claude-office-skills | minnxdao | Social & Content, Marketing & Sales | Cross-platform social publishing workflow for adapting posts, captions, and content plans. |  |
+| [TikTok Marketing](https://github.com/claude-office-skills/skills/tree/main/tiktok-marketing) | claude-office-skills | minnxdao | Social & Content, Marketing & Sales | TikTok content strategy skill for video ideas, hooks, captions, posting plans, and analytics review. |  |
+| [Applicant Screening](https://github.com/claude-office-skills/skills/tree/main/applicant-screening) | claude-office-skills | minnxdao | HR & Recruiting, Career | Screens job applications against role requirements and produces structured candidate evaluations. |  |
+| [Cover Letter](https://github.com/claude-office-skills/skills/tree/main/cover-letter) | claude-office-skills | minnxdao | Career, Writing & Communication | Writes personalized cover letters tailored to job descriptions, company context, and candidate background. |  |
+| [Job Description](https://github.com/claude-office-skills/skills/tree/main/job-description) | claude-office-skills | minnxdao | HR & Recruiting, Writing & Communication | Creates clear, inclusive job postings with responsibilities, requirements, and hiring criteria. |  |
+| [Offer Letter](https://github.com/claude-office-skills/skills/tree/main/offer-letter) | claude-office-skills | minnxdao | HR & Recruiting, Legal & Compliance | Generates professional employment offer letters with role, compensation, terms, and next steps. |  |
+| [Resume Tailor](https://github.com/claude-office-skills/skills/tree/main/resume-tailor) | claude-office-skills | minnxdao | Career, Writing & Communication | Optimizes resumes for specific job descriptions by matching requirements, keywords, and proof points. |  |
+| [Contract Review](https://github.com/claude-office-skills/skills/tree/main/contract-review) | claude-office-skills | minnxdao | Legal & Compliance | Reviews contracts for risks, missing terms, plain-language explanations, and negotiation priorities. |  |
+| [Contract Template](https://github.com/claude-office-skills/skills/tree/main/contract-template) | claude-office-skills | minnxdao | Legal & Compliance, Writing & Communication | Drafts reusable contract templates and clause structures for common business agreements. |  |
+| [Crypto Report](https://github.com/claude-office-skills/skills/tree/main/crypto-report) | claude-office-skills | minnxdao | Finance, Reading & Research | Cryptocurrency research workflow covering projects, tokenomics, market context, and risk factors. |  |
+| [Data Analysis](https://github.com/claude-office-skills/skills/tree/main/data-analysis) | claude-office-skills | minnxdao | Data & Analytics, Finance | Analyzes spreadsheet or tabular data, finds insights, and creates report-ready summaries. |  |
+| [DCF Valuation](https://github.com/claude-office-skills/skills/tree/main/dcf-valuation) | claude-office-skills | minnxdao | Finance | Builds discounted cash flow valuation logic, assumptions, scenarios, and investment outputs. |  |
+| [Expense Report](https://github.com/claude-office-skills/skills/tree/main/expense-report) | claude-office-skills | minnxdao | Finance, Productivity | Organizes and summarizes business expenses for reimbursement, review, and reporting. |  |
+| [Financial Modeling](https://github.com/claude-office-skills/skills/tree/main/financial-modeling) | claude-office-skills | minnxdao | Finance, Data & Analytics | Creates financial model structures, projections, assumptions, and analysis for business planning. |  |
+| [Investment Memo](https://github.com/claude-office-skills/skills/tree/main/investment-memo) | claude-office-skills | minnxdao | Finance, Writing & Communication | Writes investment memos with thesis, market, company, financials, risks, and recommendation structure. |  |
+| [Invoice Generator](https://github.com/claude-office-skills/skills/tree/main/invoice-generator) | claude-office-skills | minnxdao | Finance, Productivity | Creates professional invoice content with line items, terms, totals, and payment details. |  |
+| [Invoice Organizer](https://github.com/claude-office-skills/skills/tree/main/invoice-organizer) | claude-office-skills | minnxdao | Finance, Productivity | Organizes, categorizes, and tracks invoices and receipts for finance workflows. |  |
+| [NDA Generator](https://github.com/claude-office-skills/skills/tree/main/nda-generator) | claude-office-skills | minnxdao | Legal & Compliance | Creates non-disclosure agreements for different business scenarios and confidentiality needs. |  |
+| [SaaS Metrics](https://github.com/claude-office-skills/skills/tree/main/saas-metrics) | claude-office-skills | minnxdao | Finance, Data & Analytics | Analyzes SaaS metrics such as MRR, ARR, churn, LTV, CAC, cohorts, and investor reporting. |  |
+| [Stock Analysis](https://github.com/claude-office-skills/skills/tree/main/stock-analysis) | claude-office-skills | minnxdao | Finance, Reading & Research | Stock research workflow for fundamental analysis, technical context, risks, and investment summaries. |  |
+| [Chart Designer](https://github.com/claude-office-skills/skills/tree/main/chart-designer) | claude-office-skills | minnxdao | Data & Analytics, Social & Content | Designs data visualizations, chart choices, dashboards, and chart configuration guidance. |  |
+| [Diagram Creator](https://github.com/claude-office-skills/skills/tree/main/diagram-creator) | claude-office-skills | minnxdao | Social & Content, Coding & Development | Creates text-based diagrams such as Mermaid, PlantUML, flowcharts, sequences, and architecture diagrams. |  |
+| [Suspicious Email](https://github.com/claude-office-skills/skills/tree/main/suspicious-email) | claude-office-skills | minnxdao | Security & Trust, Writing & Communication | Analyzes emails for phishing, scam indicators, impersonation, and security threats. |  |
 <!-- surfmind:awesome-table:end -->
 
 ## Entries
@@ -73,6 +94,421 @@ submittedBy: "minnxdao"
 tags:
   - writing
   - content
+-->
+
+</details>
+
+<details>
+<summary><strong>A/B Testing</strong></summary>
+
+Plan, design, and prioritize A/B tests, experiments, hypotheses, and growth experimentation programs.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing
+- Submitted by: minnxdao
+- Tags: marketing, data
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing
+shortDescription: Plan, design, and prioritize A/B tests, experiments, hypotheses, and growth experimentation programs.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - data
+-->
+
+</details>
+
+<details>
+<summary><strong>AI SEO</strong></summary>
+
+Optimize content and sites for AI search visibility, citations, answer engines, and agent-readable knowledge formats.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo
+- Submitted by: minnxdao
+- Tags: marketing, research
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo
+shortDescription: Optimize content and sites for AI search visibility, citations, answer engines, and agent-readable knowledge formats.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - research
+-->
+
+</details>
+
+<details>
+<summary><strong>Community Marketing</strong></summary>
+
+Build community-led growth strategies for Discord, Slack, forums, ambassador programs, and user engagement.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing
+- Submitted by: minnxdao
+- Tags: marketing, content
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/community-marketing
+shortDescription: Build community-led growth strategies for Discord, Slack, forums, ambassador programs, and user engagement.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - content
+-->
+
+</details>
+
+<details>
+<summary><strong>Competitors</strong></summary>
+
+Create competitor comparison, alternative, versus, and battle-card content for SEO and sales enablement.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors
+- Submitted by: minnxdao
+- Tags: marketing, writing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitors
+shortDescription: Create competitor comparison, alternative, versus, and battle-card content for SEO and sales enablement.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - writing
+-->
+
+</details>
+
+<details>
+<summary><strong>Content Strategy</strong></summary>
+
+Plan content strategy, topic clusters, editorial calendars, blog ideas, and content roadmaps.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy
+- Submitted by: minnxdao
+- Tags: marketing, content
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy
+shortDescription: Plan content strategy, topic clusters, editorial calendars, blog ideas, and content roadmaps.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - content
+-->
+
+</details>
+
+<details>
+<summary><strong>Copy Editing</strong></summary>
+
+Edit, review, tighten, polish, and refresh existing marketing copy and outdated content.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing
+- Submitted by: minnxdao
+- Tags: writing, marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing
+shortDescription: Edit, review, tighten, polish, and refresh existing marketing copy and outdated content.
+submittedBy: "minnxdao"
+tags:
+  - writing
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Copywriting</strong></summary>
+
+Write and improve persuasive website, landing page, pricing page, feature page, and product marketing copy.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting
+- Submitted by: minnxdao
+- Tags: writing, marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting
+shortDescription: Write and improve persuasive website, landing page, pricing page, feature page, and product marketing copy.
+submittedBy: "minnxdao"
+tags:
+  - writing
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>CRO</strong></summary>
+
+Review and improve conversion performance for landing pages, forms, pricing pages, and marketing pages.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro
+- Submitted by: minnxdao
+- Tags: marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro
+shortDescription: Review and improve conversion performance for landing pages, forms, pricing pages, and marketing pages.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Customer Research</strong></summary>
+
+Analyze customer interviews, surveys, reviews, support tickets, forums, and voice-of-customer insights.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research
+- Submitted by: minnxdao
+- Tags: research, marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/customer-research
+shortDescription: Analyze customer interviews, surveys, reviews, support tickets, forums, and voice-of-customer insights.
+submittedBy: "minnxdao"
+tags:
+  - research
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Free Tools</strong></summary>
+
+Plan free tools, calculators, generators, graders, and engineering-as-marketing assets for lead generation and SEO.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools
+- Submitted by: minnxdao
+- Tags: marketing, code
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tools
+shortDescription: Plan free tools, calculators, generators, graders, and engineering-as-marketing assets for lead generation and SEO.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - code
+-->
+
+</details>
+
+<details>
+<summary><strong>Lead Magnets</strong></summary>
+
+Plan lead magnets, gated content, content upgrades, checklists, templates, ebooks, and opt-in offers.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets
+- Submitted by: minnxdao
+- Tags: marketing, writing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets
+shortDescription: Plan lead magnets, gated content, content upgrades, checklists, templates, ebooks, and opt-in offers.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - writing
+-->
+
+</details>
+
+<details>
+<summary><strong>Marketing Ideas</strong></summary>
+
+Brainstorm SaaS and software marketing ideas, growth tactics, promotion strategies, and channel experiments.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas
+- Submitted by: minnxdao
+- Tags: marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas
+shortDescription: Brainstorm SaaS and software marketing ideas, growth tactics, promotion strategies, and channel experiments.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Marketing Psychology</strong></summary>
+
+Apply behavioral science, persuasion principles, cognitive biases, and decision-making models to marketing work.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology
+- Submitted by: minnxdao
+- Tags: marketing, learning
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology
+shortDescription: Apply behavioral science, persuasion principles, cognitive biases, and decision-making models to marketing work.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - learning
+-->
+
+</details>
+
+<details>
+<summary><strong>Offers</strong></summary>
+
+Design and improve offers, value framing, bonus stacks, guarantees, risk reversal, scarcity, and offer naming.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers
+- Submitted by: minnxdao
+- Tags: marketing, writing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers
+shortDescription: Design and improve offers, value framing, bonus stacks, guarantees, risk reversal, scarcity, and offer naming.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - writing
+-->
+
+</details>
+
+<details>
+<summary><strong>Onboarding</strong></summary>
+
+Optimize post-signup onboarding, activation, first-run experiences, setup checklists, and time-to-value.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding
+- Submitted by: minnxdao
+- Tags: marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding
+shortDescription: Optimize post-signup onboarding, activation, first-run experiences, setup checklists, and time-to-value.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Paywalls</strong></summary>
+
+Improve in-app paywalls, upgrade screens, upsell modals, feature gates, and freemium conversion moments.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls
+- Submitted by: minnxdao
+- Tags: marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywalls
+shortDescription: Improve in-app paywalls, upgrade screens, upsell modals, feature gates, and freemium conversion moments.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Popups</strong></summary>
+
+Create and optimize popups, modals, overlays, slide-ins, banners, exit-intent offers, and lead-capture prompts.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups
+- Submitted by: minnxdao
+- Tags: marketing, writing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/popups
+shortDescription: Create and optimize popups, modals, overlays, slide-ins, banners, exit-intent offers, and lead-capture prompts.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - writing
+-->
+
+</details>
+
+<details>
+<summary><strong>Pricing</strong></summary>
+
+Plan pricing, packaging, tiers, freemium strategy, trials, value metrics, and monetization decisions.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
+- Submitted by: minnxdao
+- Tags: marketing, finance
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
+shortDescription: Plan pricing, packaging, tiers, freemium strategy, trials, value metrics, and monetization decisions.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - finance
+-->
+
+</details>
+
+<details>
+<summary><strong>Programmatic SEO</strong></summary>
+
+Plan programmatic SEO pages, templates, datasets, keyword patterns, and scalable landing-page systems.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo
+- Submitted by: minnxdao
+- Tags: marketing, code
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo
+shortDescription: Plan programmatic SEO pages, templates, datasets, keyword patterns, and scalable landing-page systems.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - code
+-->
+
+</details>
+
+<details>
+<summary><strong>Signup</strong></summary>
+
+Optimize signup, registration, account creation, free-trial starts, signup forms, and trial activation flows.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup
+- Submitted by: minnxdao
+- Tags: marketing
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup
+shortDescription: Optimize signup, registration, account creation, free-trial starts, signup forms, and trial activation flows.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+-->
+
+</details>
+
+<details>
+<summary><strong>Site Architecture</strong></summary>
+
+Plan website hierarchy, navigation, URL structure, internal linking, page maps, and information architecture.
+
+- Source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture
+- Submitted by: minnxdao
+- Tags: marketing, code
+
+<!-- surfmind:community-skill
+url: https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture
+shortDescription: Plan website hierarchy, navigation, URL structure, internal linking, page maps, and information architecture.
+submittedBy: "minnxdao"
+tags:
+  - marketing
+  - code
 -->
 
 </details>
