@@ -12,8 +12,8 @@ Community-maintained SurfMind-compatible skills.
 ## Skills
 
 <!-- surfmind:awesome-table:start -->
-| Skill | Submitted By | Tags | Description | Links |
-| --- | --- | --- | --- | --- |
+| Skill | Author | Submitted By | Tags | Description | Links |
+| --- | --- | --- | --- | --- | --- |
 <!-- surfmind:awesome-table:end -->
 
 ## Entries
@@ -46,6 +46,7 @@ test("parses collapsed community skill entries", () => {
     {
       title: "Acme Research Assistant",
       url: "https://github.com/acme/surfmind-skills/tree/main/skills/research-assistant",
+      author: "acme",
       shortDescription:
         "Research assistant for technical blogs, docs, and papers.",
       submittedBy: "acme",
@@ -64,7 +65,7 @@ test("generates the awesome skills table from collapsed entries", () => {
 
   assert.match(
     generated,
-    /\| \[Acme Research Assistant\]\(https:\/\/github\.com\/acme\/surfmind-skills\/tree\/main\/skills\/research-assistant\) \| acme \| Reading & Research, Learning & Tutoring \| Research assistant for technical blogs, docs, and papers\. \| \[Website\]\(https:\/\/acme\.example\) · \[Demo\]\(https:\/\/acme\.example\/demo\) \|/,
+    /\| \[Acme Research Assistant\]\(https:\/\/github\.com\/acme\/surfmind-skills\/tree\/main\/skills\/research-assistant\) \| acme \| acme \| Reading & Research, Learning & Tutoring \| Research assistant for technical blogs, docs, and papers\. \| \[Website\]\(https:\/\/acme\.example\) · \[Demo\]\(https:\/\/acme\.example\/demo\) \|/,
   );
 });
 

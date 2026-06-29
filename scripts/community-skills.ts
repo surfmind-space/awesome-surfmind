@@ -6,6 +6,7 @@ import { KNOWN_SKILL_TAGS, SKILL_TAG_CATEGORIES } from "./constants.js";
 export type CommunitySkill = {
   title: string;
   url: string;
+  author: string;
   shortDescription: string;
   submittedBy: string;
   tags: string[];
@@ -105,6 +106,7 @@ export function parseCommunitySkills(
     skills.push({
       title: readEntryTitle(content, index, filePath),
       url,
+      author: readSkillAuthor(url),
       shortDescription: parsed.shortDescription.trim(),
       submittedBy: parsed.submittedBy.trim(),
       tags: parsed.tags,
@@ -132,17 +134,17 @@ export function parseCommunitySkills(
 
 function buildSkillsTable(skills: CommunitySkill[]): string {
   const rows = [
-    "| Skill | Submitted By | Tags | Description | Links |",
-    "| --- | --- | --- | --- | --- |",
+    "| Skill | Author | Submitted By | Tags | Description | Links |",
+    "| --- | --- | --- | --- | --- | --- |",
   ];
 
   for (const skill of skills) {
     rows.push(
       `| [${escapeTableCell(skill.title)}](${skill.url}) | ${escapeTableCell(
-        skill.submittedBy,
-      )} | ${formatTags(skill.tags)} | ${escapeTableCell(
-        skill.shortDescription,
-      )} | ${formatLinks(skill)} |`,
+        skill.author,
+      )} | ${escapeTableCell(skill.submittedBy)} | ${formatTags(
+        skill.tags,
+      )} | ${escapeTableCell(skill.shortDescription)} | ${formatLinks(skill)} |`,
     );
   }
 
@@ -196,6 +198,11 @@ function readEntryTitle(
   }
 
   return title;
+}
+
+function readSkillAuthor(url: string): string {
+  const parts = new URL(url).pathname.replace(/^\/+|\/+$/g, "").split("/");
+  return parts[0] ?? "";
 }
 
 function normalizeSkillFolderUrl(url: string, filePath: string): string {
