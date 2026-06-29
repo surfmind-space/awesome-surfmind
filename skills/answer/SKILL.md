@@ -1,8 +1,8 @@
 ---
 name: answer
 description: Answers a question grounded in the selected text or visible page, researching further when the page falls short, always evidence-backed and never invented. Use when the user highlights a passage or is on a page and asks "what does this mean", "answer this", "where does it say", or any who/what/why/how question about that content.
+author: surfmind
 metadata:
-  author: surfmind
   icon: MessageCircleQuestion
   tags:
     - research

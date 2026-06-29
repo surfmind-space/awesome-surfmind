@@ -1,8 +1,8 @@
 ---
 name: draft-from-notes
 description: Turns rough notes, bullet points, outlines, or copied fragments into a coherent draft (email, memo, post, report, or document section) while preserving facts and marking gaps instead of inventing detail. Use when the user shares notes or bullets and asks to "turn this into a draft", "write this up", "expand my bullets", "turn notes into prose", or "make a first draft".
+author: surfmind
 metadata:
-  author: surfmind
   icon: FileText
   tags:
     - writing

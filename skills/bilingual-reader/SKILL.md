@@ -1,8 +1,8 @@
 ---
 name: bilingual-reader
 description: Translates selected text and explains the idioms, cultural nuance, key terms, and phrasing that should not be read literally. Use when the user says "translate this", "in Spanish/French/Japanese/etc.", "what does this mean", "explain this phrase", or wants foreign-language text rendered with the context behind it.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Languages
   tags:
     - language

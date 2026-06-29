@@ -1,8 +1,8 @@
 ---
 name: competitor-snapshot
 description: Summarizes a competitor's page into positioning, audience, offers, pricing cues, proof points, and differentiation opportunities. Use when the user wants a competitive analysis, competitor research, or a market comparison, or asks to analyze a competitor's website, landing page, pricing page, product, or ad.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Briefcase
   tags:
     - marketing

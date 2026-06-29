@@ -1,8 +1,8 @@
 ---
 name: fact-check
 description: Extracts factual claims from selected text or a page and checks each against the visible context and available sources, flagging what is supported, weakened, contradicted, or still unverified. Use when the user says "fact check this", "verify", "is this true", "check the sources", or asks about a page's accuracy, credibility, or possible misinformation.
+author: surfmind
 metadata:
-  author: surfmind
   icon: CheckCheck
   tags:
     - research

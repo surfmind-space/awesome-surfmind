@@ -1,8 +1,8 @@
 ---
 name: paper-reader
 description: Explains academic papers, abstracts, PDFs, and technical articles by laying out their method, findings, limitations, and implications. Use when the user says "explain this paper", "summarize this study", "read this paper", "break down this research", or asks what a paper or abstract means.
+author: surfmind
 metadata:
-  author: surfmind
   icon: BookOpen
   tags:
     - research

@@ -44,6 +44,7 @@ const frontmatterSchema = z
       .min(1)
       .regex(kebabCaseNamePattern, "name must be kebab-case"),
     description: z.string().trim().min(1),
+    author: z.string().trim().min(1).optional().nullable(),
     metadata: z
       .object({
         author: z.string().trim().min(1).optional().nullable(),
@@ -121,7 +122,7 @@ function normalizeFrontmatter(
   const raw = rawFrontmatter as Record<string, unknown>;
   const metadata = (raw.metadata ?? {}) as Record<string, unknown>;
 
-  const author = nullableString(metadata.author);
+  const author = nullableString(frontmatter.author ?? metadata.author);
   const icon = nullableString(metadata.icon);
   const tags = normalizeTags(metadata.tags);
   const actionMenu = normalizeActionMenu(metadata.actionMenu, slug);

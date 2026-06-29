@@ -1,8 +1,8 @@
 ---
 name: meeting-follow-up
 description: Converts meeting notes, minutes, or call transcripts into decisions, action items with owners and deadlines, open questions, and a sendable recap. Use when the user shares meeting notes or a transcript, or asks for a meeting summary, recap, minutes, follow-ups, or takeaways.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Calendar
   tags:
     - writing

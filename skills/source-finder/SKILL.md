@@ -1,8 +1,8 @@
 ---
 name: source-finder
 description: Finds credible primary or authoritative sources that verify, challenge, or strengthen the claims in selected or visible text, weighing each for authority, recency, and whether it actually supports the claim. Use when the user says "find a source", "back this up", "is there evidence for this", "cite this", "find references", or asks for citations, primary sources, or proof for a statement.
+author: surfmind
 metadata:
-  author: surfmind
   icon: TextSearch
   tags:
     - research

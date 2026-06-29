@@ -1,8 +1,8 @@
 ---
 name: social-post-generator
 description: Turns a page, article, or product update into platform-ready social posts — Twitter/X threads, LinkedIn posts, and short captions with clear hooks, takeaways, and calls to action. Use when the user wants to repurpose content into social media, draft a tweet or thread, or write a LinkedIn or announcement post.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Sparkles
   tags:
     - content

@@ -1,8 +1,8 @@
 ---
 name: rewrite-shorter
 description: Condenses selected or provided text to be shorter and more concise while keeping its essential meaning and details. Use when the user says "make this shorter", "shorten", "condense", "trim", "tighten", or "be more concise" about highlighted or provided text.
+author: surfmind
 metadata:
-  author: surfmind
   icon: ListMinus
   tags:
     - writing

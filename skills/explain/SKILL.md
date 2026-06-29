@@ -1,8 +1,8 @@
 ---
 name: explain
 description: Explains selected or visible content in plain language, including the core idea, jargon, and background, while researching further when the page falls short and staying evidence-backed. Use when the user says "explain this", "what does this mean", "simplify", "break this down", "ELI5", or "help me understand" about highlighted text, code, or on-screen content.
+author: surfmind
 metadata:
-  author: surfmind
   icon: BookMarked
   tags:
     - research

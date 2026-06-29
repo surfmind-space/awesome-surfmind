@@ -1,8 +1,8 @@
 ---
 name: study-plan
 description: Creates a staged learning plan from a topic, course page, or documentation set with goals, practice tasks, and checkpoints. Use when the user wants a "study plan", "learning roadmap", "curriculum", "syllabus", "learning path", or asks "how do I learn X" or "help me learn X in N weeks".
+author: surfmind
 metadata:
-  author: surfmind
   icon: Notebook
   tags:
     - learning

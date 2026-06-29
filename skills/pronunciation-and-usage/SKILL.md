@@ -1,8 +1,8 @@
 ---
 name: pronunciation-and-usage
 description: Explains how to pronounce and naturally use a selected word or phrase, with register, meaning, collocations, and example sentences. Use when the user asks "how do you pronounce / how do you say this", "what does X mean", or wants vocabulary and usage help for a foreign-language word or phrase.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Speech
   tags:
     - language

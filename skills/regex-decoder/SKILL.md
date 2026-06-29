@@ -1,8 +1,8 @@
 ---
 name: regex-decoder
 description: Breaks a regular expression down into plain-language parts with examples of what it matches and what it rejects. Use when the user asks to explain, decode, or understand a regex, regexp, or pattern — "what does this regex match", "explain this pattern", a .match/.test call.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Code
   tags:
     - code

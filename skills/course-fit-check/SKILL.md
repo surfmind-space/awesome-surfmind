@@ -1,8 +1,8 @@
 ---
 name: course-fit-check
 description: Evaluates whether a specific course, certification, bootcamp, or training is worth the time and money for the user's stated career goal, weighing recruiter signal, time and opportunity cost, risks, and the artifact it produces. Use when the user asks whether a course, certification, bootcamp, or training is worth it, or when evaluating training ROI against a career goal.
+author: surfmind
 metadata:
-  author: surfmind
   icon: GraduationCap
   tags:
     - career

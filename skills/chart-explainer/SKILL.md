@@ -1,8 +1,8 @@
 ---
 name: chart-explainer
 description: Explains a visible chart by identifying axes, trends, outliers, and the practical takeaway while flagging missing context. Use when the user shares a chart, graph, plot, or data visualization — bar, line, pie, scatter — and asks what it shows, means, or whether the data supports a decision.
+author: surfmind
 metadata:
-  author: surfmind
   icon: ChartNoAxesCombined
   tags:
     - data

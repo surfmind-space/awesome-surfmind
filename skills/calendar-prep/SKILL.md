@@ -1,8 +1,8 @@
 ---
 name: calendar-prep
 description: Turns an event page, calendar invite, email, or notes into key details, an agenda, a preparation checklist, and follow-up reminders. Use when the user wants to prepare for a meeting, event, or appointment, or asks for meeting prep, an agenda, or a prep checklist before an upcoming event.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Calendar
   tags:
     - productivity

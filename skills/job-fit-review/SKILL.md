@@ -1,8 +1,8 @@
 ---
 name: job-fit-review
 description: Reviews a job posting or pasted job description for fit, gaps, legitimacy signals, compensation context, resume customization, and interview prep. Use when the user shares a job posting, job listing, job ad, or job description and wants help deciding whether to apply, evaluating the role, or checking if a job is legit.
+author: surfmind
 metadata:
-  author: surfmind
   icon: Briefcase
   tags:
     - career

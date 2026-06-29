@@ -1,8 +1,8 @@
 ---
 name: linkedin-outreach
 description: Drafts short LinkedIn connection or outreach messages for recruiters, hiring managers, peers, and interviewers using the visible job or company context. Use when the user wants to write a LinkedIn message, connect with a recruiter, or reach out to someone about a job opportunity.
+author: surfmind
 metadata:
-  author: surfmind
   icon: MessageCircle
   tags:
     - career

@@ -55,8 +55,8 @@ To add or update an official skill:
 ---
 name: my-skill
 description: A short description shown in SurfMind.
+author: Your Name
 metadata:
-  author: Your Name
   icon: Sparkles
   tags:
     - writing
@@ -73,7 +73,7 @@ Required fields:
 
 Optional fields:
 
-- `metadata.author`
+- `author`
 - `metadata.icon`
 - `metadata.tags`
 - `metadata.actionMenu`
