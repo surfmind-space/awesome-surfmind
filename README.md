@@ -39,27 +39,25 @@ Awesome SurfMind is a shared catalog for useful browser AI workflows. Whether
 you use SurfMind every day, maintain your own skill or MCP repo, or just have an
 idea that deserves to be reusable, you are welcome here.
 
-| Start here              | What to do                                                                                                                  |
-| ----------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| ⭐ Star this repo       | Get release notifications and help more people discover the catalog.                                                        |
-| 🧩 Try official skills  | Browse the official skills below and use them in SurfMind.                                                                  |
-| 🌊 Share your own skill | Add your GitHub-hosted skill to [`awesome-skills.md`](./awesome-skills.md).                                                 |
-| 🔌 Suggest an MCP       | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for an MCP listing or integration idea.           |
-| 💬 Suggest an idea      | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for a skill request, bug, or catalog improvement. |
+| Start here              | What to do                                                                                                                                                         |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ⭐ Star this repo       | Get release notifications and help more people discover the catalog.                                                                                               |
+| 🌊 Try official skills  | Browse the official skills below and use them in SurfMind.                                                                                                         |
+| 🤝 Share your own skill | Add an official skill or add your GitHub-hosted skill to [`awesome-skills.md`](./awesome-skills.md). Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) for instructions. |
+| 🔌 Suggest an MCP       | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for an MCP listing or integration idea.                                                  |
+| 💬 Suggest an idea      | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for a skill request, bug, or catalog improvement.                                        |
 
 <p>
   <a href="https://github.com/surfmind-space/surfmind-skills/stargazers">
     <img alt="Star SurfMind Skills" src="https://img.shields.io/github/stars/surfmind-space/surfmind-skills?style=for-the-badge&label=Star%20the%20repo&color=f0b85a" />
-  </a>
-  <a href="https://github.com/surfmind-space/surfmind-skills/issues/new">
-    <img alt="Suggest a skill" src="https://img.shields.io/badge/suggest-a%20skill-4b9aa0?style=for-the-badge" />
   </a>
   <a href="./CONTRIBUTING.md">
     <img alt="Read contribution guide" src="https://img.shields.io/badge/read-contribution%20guide-2f7f7b?style=for-the-badge" />
   </a>
 </p>
 
-## 🧩 Official SurfMind Skills
+<details>
+<summary><h2>🌊 Official SurfMind Skills</h2></summary>
 
 <!-- surfmind:official-skills:start -->
 | Skill | Categories | Description |
@@ -113,7 +111,9 @@ idea that deserves to be reusable, you are welcome here.
 | [Translate](./skills/translate/SKILL.md) | Languages & Translation | Translates selected or provided text into a chosen target language while preserving meaning, tone, and formatting. |
 <!-- surfmind:official-skills:end -->
 
-## 🌊 Community Skills
+</details>
+
+## 🧩 Community Skills
 
 Community skills are maintained by their own authors and listed in
 [`awesome-skills.md`](./awesome-skills.md). The list is scan-friendly on GitHub
