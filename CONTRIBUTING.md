@@ -7,25 +7,16 @@ ways:
 - List an external/community skill in [`awesome-skills.md`](./awesome-skills.md)
 - Request a new skill by opening an issue
 
-## Requesting a New Skill
+## Add or Improve an Official Skill
 
-Don't want to write a skill yourself? Suggest one by opening an issue. Requests
-help maintainers and the community see what's in demand and pick up the work.
+To add or update an official skill:
 
-1. Open a new issue in this repository.
-2. Use a clear title, prefixed with `[Skill Request]`.
-3. In the body, describe:
-   - **What the skill should do** - the task or workflow it covers.
-   - **Why it's useful** - who benefits and when they'd reach for it.
-   - **Suggested tags** - one or more from the [allowed tags](#tags) table.
-   - **Example prompts or sources** - any references, examples, or links that
-     show what good output looks like.
+1. Add or edit the skill folder under `skills/` (see the structure below).
+2. Write or update `SKILL.md` (see [SKILL.md Format](#skillmd-format)).
+3. Choose suitable metadata fields, including tags when relevant.
+4. Open a pull request.
 
-Maintainers triage requests and label them so contributors can find and claim
-them. If you later decide to build the skill yourself, follow the official or
-community steps below and link back to the request issue in your pull request.
-
-## Official Skill File Structure
+### Skill File Structure
 
 Each official skill lives in its own kebab-case folder:
 
@@ -41,13 +32,7 @@ skills/
 skill needs supporting files, place them in the same skill folder and reference
 them from the prompt.
 
-To add or update an official skill:
-
-1. Add or edit the skill folder under `skills/`.
-2. Choose suitable metadata fields, including tags when relevant.
-3. Open a pull request.
-
-## SKILL.md Format
+### SKILL.md Format
 
 `SKILL.md` uses YAML frontmatter followed by the prompt body:
 
@@ -78,7 +63,7 @@ Optional fields:
 - `metadata.tags`
 - `metadata.actionMenu`
 
-## Tags
+### Tags
 
 Use `metadata.tags` to categorize skills. Tags are stored as canonical lowercase
 keys and rendered as categories in SurfMind clients.
@@ -106,18 +91,18 @@ Allowed tags:
 | `finance`      | Finance                       | Track budgets, analyze financial data, and research markets or investments |
 | `data`         | Data & Analytics              | Analyze, summarize, and work with data and metrics                         |
 | `automation`   | Browser & Workflow Automation | Automate browser actions and multi-step workflows                          |
-| `career`       | Career                        | Review jobs, prepare applications, interviews, outreach, and career moves   |
-| `hr`           | HR & Recruiting               | Screen candidates, draft HR documents, and support recruiting workflows     |
-| `legal`        | Legal & Compliance            | Review, draft, and explain legal or compliance-oriented documents           |
-| `security`     | Security & Trust              | Detect risks, scams, abuse, and other safety or trust issues                |
+| `career`       | Career                        | Review jobs, prepare applications, interviews, outreach, and career moves  |
+| `hr`           | HR & Recruiting               | Screen candidates, draft HR documents, and support recruiting workflows    |
+| `legal`        | Legal & Compliance            | Review, draft, and explain legal or compliance-oriented documents          |
+| `security`     | Security & Trust              | Detect risks, scams, abuse, and other safety or trust issues               |
 
-## Icons
+### Icons
 
 `metadata.icon` must be one of the supported icon names in
 [`scripts/constants.ts`](./scripts/constants.ts). SurfMind falls back to `Box`
 when no icon is supplied.
 
-## Action Menus
+### Action Menus
 
 Use `metadata.actionMenu` when a skill needs a user-selected option.
 
@@ -142,7 +127,7 @@ metadata:
 `{value}` is a placeholder in the prompt body. When the skill runs, it is
 replaced with the selected action menu value.
 
-## Community Skills
+## List a Community Skill
 
 Community skills are SurfMind-compatible skills hosted in external public GitHub
 repos. They are listed in [`awesome-skills.md`](./awesome-skills.md).
@@ -152,6 +137,8 @@ To list a community skill:
 1. Publish a valid `SKILL.md` in a public GitHub repo.
 2. Add one collapsed entry under `## Entries` in [`awesome-skills.md`](./awesome-skills.md).
 3. Open a pull request.
+
+### Entry Format
 
 Community entry format:
 
@@ -228,6 +215,24 @@ skill summary. `shortDescription` is only for the generated GitHub table in
 `awesome-skills.md`. The `awesome-skills.md` tags are validated in CI and sent
 with the community import payload so the catalog can categorize the listing
 after the PR is merged.
+
+## Requesting a New Skill
+
+Don't want to write a skill yourself? Suggest one by opening an issue. Requests
+help maintainers and the community see what's in demand and pick up the work.
+
+1. Open a new issue in this repository.
+2. Use a clear title, prefixed with `[Skill Request]`.
+3. In the body, describe:
+   - **What the skill should do** - the task or workflow it covers.
+   - **Why it's useful** - who benefits and when they'd reach for it.
+   - **Suggested tags** - one or more from the [allowed tags](#tags) table.
+   - **Example prompts or sources** - any references, examples, or links that
+     show what good output looks like.
+
+Maintainers triage requests and label them so contributors can find and claim
+them. If you later decide to build the skill yourself, follow the official or
+community steps above and link back to the request issue in your pull request.
 
 ## Optional Local Checks
 
