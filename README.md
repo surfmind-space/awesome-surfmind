@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <a href="https://chromewebstore.google.com/detail/surfmind-instant-ai-chat/pghallcbnfabbgfijhbcldaapmgidnaa">
+  <a href="https://chromewebstore.google.com/detail/pghallcbnfabbgfijhbcldaapmgidnaa">
     <img alt="Chrome Extension" src="https://img.shields.io/badge/Chrome%20Extension-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   <a href="https://apps.apple.com/us/app/surfmind/id6753634655">
