@@ -36,7 +36,16 @@
   </a>
 </p>
 
-## 💡 What Is This?
+## 🌊 What Is SurfMind?
+
+[SurfMind](https://surfmind.ai) is an AI browser extension for Chrome, Edge, Firefox and Safari (Mac, iPhone and iPad). It opens as a sidebar, reads the page you are on, and answers with the AI model you choose.
+
+- **Any AI provider.** Use your own API key from OpenAI, Anthropic or Google, or connect [OpenRouter](https://surfmind.ai/openrouter-extension).
+- **Local models.** Run models on your own computer with [Ollama](https://surfmind.ai/ollama-extension), LM Studio, [Open WebUI](https://surfmind.ai/open-webui-extension), llama.cpp, vLLM or any OpenAI-compatible endpoint.
+- **MCP servers and skills.** Connect MCP servers and add skills, like the ones in this repo.
+- **Browser actions.** SurfMind can take actions on the page for you, not only answer questions.
+
+## 💡 What Is This Repo?
 
 Awesome SurfMind is the public catalog for SurfMind resources. This repo makes useful SurfMind resources easy to discover, review, version, and share. Official resources can live here directly, while community resources can be promoted from their own repos through awesome lists.
 
@@ -56,12 +65,12 @@ idea that deserves to be reusable, you are welcome here.
 | ⭐ Star this repo       | Get release notifications and help more people discover the catalog.                                                                                               |
 | 🌊 Try official skills  | Browse the official skills below and use them in SurfMind.                                                                                                         |
 | 🤝 Share your own skill | Add an official skill or add your GitHub-hosted skill to [`awesome-skills.md`](./awesome-skills.md). Read [`CONTRIBUTING.md`](./CONTRIBUTING.md) for instructions. |
-| 🔌 Suggest an MCP       | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for an MCP listing or integration idea.                                                  |
-| 💬 Suggest an idea      | Open an [issue](https://github.com/surfmind-space/surfmind-skills/issues) for a skill request, bug, or catalog improvement.                                        |
+| 🔌 Suggest an MCP       | Open an [issue](https://github.com/surfmind-space/awesome-surfmind/issues) for an MCP listing or integration idea.                                                  |
+| 💬 Suggest an idea      | Open an [issue](https://github.com/surfmind-space/awesome-surfmind/issues) for a skill request, bug, or catalog improvement.                                        |
 
 <p>
-  <a href="https://github.com/surfmind-space/surfmind-skills/stargazers">
-    <img alt="Star SurfMind Skills" src="https://img.shields.io/github/stars/surfmind-space/surfmind-skills?style=for-the-badge&label=Star%20the%20repo&color=f0b85a" />
+  <a href="https://github.com/surfmind-space/awesome-surfmind/stargazers">
+    <img alt="Star Awesome SurfMind" src="https://img.shields.io/github/stars/surfmind-space/awesome-surfmind?style=for-the-badge&label=Star%20the%20repo&color=f0b85a" />
   </a>
   <a href="./CONTRIBUTING.md">
     <img alt="Read contribution guide" src="https://img.shields.io/badge/read-contribution%20guide-2f7f7b?style=for-the-badge" />
@@ -152,7 +161,7 @@ metadata fields, community listing format, and local validation commands.
   <a href="./CONTRIBUTING.md#community-skills">
     <img alt="List community skill" src="https://img.shields.io/badge/submit-community%20skill-2f7f7b?style=for-the-badge" />
   </a>
-  <a href="https://github.com/surfmind-space/surfmind-skills/issues/new">
+  <a href="https://github.com/surfmind-space/awesome-surfmind/issues/new">
     <img alt="Suggest a skill" src="https://img.shields.io/badge/suggest-a%20skill-8bbfc6?style=for-the-badge" />
   </a>
 </p>
