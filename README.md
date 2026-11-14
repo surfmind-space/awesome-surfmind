@@ -45,7 +45,7 @@
 - **MCP servers and skills.** Connect MCP servers and add skills, like the ones in this repo.
 - **Browser actions.** SurfMind can take actions on the page for you, not only answer questions.
 
-## 💡 What Is This?
+## 💡 What Is This Repo?
 
 Awesome SurfMind is the public catalog for SurfMind resources. This repo makes useful SurfMind resources easy to discover, review, version, and share. Official resources can live here directly, while community resources can be promoted from their own repos through awesome lists.
 
